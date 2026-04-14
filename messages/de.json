@@ -1554,7 +1554,10 @@
     "blogMinRead": "Min. Lesezeit",
     "blogRelatedCalculator": "Zugehöriger Rechner",
     "blogPrevious": "Vorheriger",
-    "blogNext": "Nächster"
+    "blogNext": "Nächster",
+    "blogMath": "Mathematik",
+    "blogDate": "Datum & Zeit",
+    "blogTax": "Steuern"
   },
   "footer": {
     "description": "Kostenlose, schnelle und KI-gestützte Rechner für alle.",

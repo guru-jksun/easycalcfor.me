@@ -1554,7 +1554,10 @@
     "blogMinRead": "分で読める",
     "blogRelatedCalculator": "関連する計算機",
     "blogPrevious": "前の記事",
-    "blogNext": "次の記事"
+    "blogNext": "次の記事",
+    "blogMath": "数学",
+    "blogDate": "日付＆時間",
+    "blogTax": "税金"
   },
   "footer": {
     "description": "誰でも使える無料のAI計算機。",

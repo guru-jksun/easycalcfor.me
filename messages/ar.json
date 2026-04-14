@@ -1554,7 +1554,10 @@
     "blogMinRead": "دقيقة قراءة",
     "blogRelatedCalculator": "الآلة الحاسبة ذات الصلة",
     "blogPrevious": "السابق",
-    "blogNext": "التالي"
+    "blogNext": "التالي",
+    "blogMath": "رياضيات",
+    "blogDate": "التاريخ والوقت",
+    "blogTax": "الضرائب"
   },
   "footer": {
     "description": "آلات حاسبة مجانية وسريعة ومدعومة بالذكاء الاصطناعي للجميع.",

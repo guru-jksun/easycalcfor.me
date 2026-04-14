@@ -1554,7 +1554,10 @@
     "blogMinRead": "分钟阅读",
     "blogRelatedCalculator": "相关计算器",
     "blogPrevious": "上一篇",
-    "blogNext": "下一篇"
+    "blogNext": "下一篇",
+    "blogMath": "数学",
+    "blogDate": "日期和时间",
+    "blogTax": "税务"
   },
   "footer": {
     "description": "免费、快速、AI驱动的计算器，适合所有人。",

@@ -1554,7 +1554,10 @@
     "blogMinRead": "min read",
     "blogRelatedCalculator": "Related Calculator",
     "blogPrevious": "Previous",
-    "blogNext": "Next"
+    "blogNext": "Next",
+    "blogMath": "Math",
+    "blogDate": "Date & Time",
+    "blogTax": "Tax"
   },
   "footer": {
     "description": "Free, fast, and AI-powered calculators for everyone.",

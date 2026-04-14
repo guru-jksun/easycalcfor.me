@@ -1554,7 +1554,10 @@
     "blogMinRead": "분 소요",
     "blogRelatedCalculator": "관련 계산기",
     "blogPrevious": "이전 글",
-    "blogNext": "다음 글"
+    "blogNext": "다음 글",
+    "blogMath": "수학",
+    "blogDate": "날짜 & 시간",
+    "blogTax": "세금"
   },
   "footer": {
     "description": "누구나 쉽게 사용하는 무료 AI 계산기.",

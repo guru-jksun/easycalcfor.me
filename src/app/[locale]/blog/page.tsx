@@ -34,6 +34,10 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
     health: t("blogHealth"),
     living: t("blogLiving"),
     korea: t("blogKorea"),
+    india: t("blogIndia"),
+    math: t("blogMath"),
+    date: t("blogDate"),
+    tax: t("blogTax"),
   };
 
   return (

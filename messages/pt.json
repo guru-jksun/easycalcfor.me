@@ -1554,7 +1554,10 @@
     "blogMinRead": "min de leitura",
     "blogRelatedCalculator": "Calculadora relacionada",
     "blogPrevious": "Anterior",
-    "blogNext": "Próximo"
+    "blogNext": "Próximo",
+    "blogMath": "Matemática",
+    "blogDate": "Data e Hora",
+    "blogTax": "Impostos"
   },
   "footer": {
     "description": "Calculadoras gratuitas, rápidas e com IA para todos.",

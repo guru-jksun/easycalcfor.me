@@ -1554,7 +1554,10 @@
     "blogMinRead": "मिनट पढ़ने का समय",
     "blogRelatedCalculator": "संबंधित कैलकुलेटर",
     "blogPrevious": "पिछला",
-    "blogNext": "अगला"
+    "blogNext": "अगला",
+    "blogMath": "गणित",
+    "blogDate": "दिनांक और समय",
+    "blogTax": "कर"
   },
   "footer": {
     "description": "सभी के लिए मुफ्त, तेज़, और AI-संचालित कैलकुलेटर।",

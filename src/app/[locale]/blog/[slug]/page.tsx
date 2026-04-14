@@ -103,6 +103,10 @@ export default async function BlogPostPage(props: PageProps<"/[locale]/blog/[slu
     health: t("blogHealth"),
     living: t("blogLiving"),
     korea: t("blogKorea"),
+    india: t("blogIndia"),
+    math: t("blogMath"),
+    date: t("blogDate"),
+    tax: t("blogTax"),
   };
 
   const title = post.title[locale] || post.title.en;
