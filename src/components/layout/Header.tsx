@@ -29,6 +29,7 @@ const NAV_ITEMS = [
   { key: "tax",        href: "/calculator/tax",         icon: Percent },
   { key: "living",     href: "/calculator/living",      icon: Sparkles },
   { key: "korea",      href: "/calculator/korea",       icon: Flag },
+  { key: "india",      href: "/calculator/india",       icon: Flag },
   { key: "ai",         href: "/ai",                     icon: Brain },
 ] as const;
 

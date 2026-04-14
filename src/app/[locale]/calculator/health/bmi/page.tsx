@@ -56,6 +56,7 @@ export default async function BmiPage(props: PageProps<"/[locale]/calculator/hea
                 BMI = weight(kg) ÷ height(m)²
               </div>
               <p className="text-sm text-muted-foreground">{t("bmiImperialNote")}</p>
+              <p className="text-xs text-muted-foreground mt-3">* {t("bmiNameNote")}</p>
             </div>
 
             <div className="rounded-xl border p-6 bg-card">

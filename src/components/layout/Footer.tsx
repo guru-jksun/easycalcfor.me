@@ -1,6 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Calculator } from "lucide-react";
 
 
 interface FooterProps {
@@ -21,9 +21,7 @@ export default function Footer({ locale }: FooterProps) {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href={prefix("/")} className="flex items-center gap-2 font-bold text-lg text-foreground mb-3">
-              <div className="flex items-center justify-center w-7 h-7 rounded-lg bg-primary text-primary-foreground">
-                <Calculator className="w-4 h-4" />
-              </div>
+              <Image src="/logo.svg" alt="EasyCalcFor.me" width={28} height={28} className="rounded-lg" />
               EasyCalcFor.me
             </Link>
             <p className="text-sm text-muted-foreground">{t("description")}</p>

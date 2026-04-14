@@ -18,6 +18,7 @@ const TAX_KEYS = [
   { nameKey: "salesTaxCalculator", descKey: "salesTaxCalculatorDesc", href: "tax/sales-tax", emoji: "🧾" },
   { nameKey: "vatCalculator",      descKey: "vatCalculatorDesc",      href: "tax/vat",        emoji: "💶" },
   { nameKey: "incomeTaxCalculator", descKey: "incomeTaxCalculatorDesc", href: "tax/income-tax", emoji: "📊" },
+  { nameKey: "tax2026Calculator", descKey: "tax2026CalculatorDesc", href: "tax/tax-2026", emoji: "🗓️" },
 ];
 
 export default async function TaxPage(props: PageProps<"/[locale]/calculator/tax">) {

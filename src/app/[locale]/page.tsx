@@ -31,21 +31,22 @@ const CATEGORIES = [
   { key: "tax",        icon: Percent,        href: "/calculator/tax",        color: "text-teal-600",    bg: "bg-teal-50 dark:bg-teal-950/40",       border: "border-teal-100 dark:border-teal-900" },
   { key: "living",    icon: Sparkles,       href: "/calculator/living",     color: "text-amber-500",   bg: "bg-amber-50 dark:bg-amber-950/40",     border: "border-amber-100 dark:border-amber-900" },
   { key: "korea",     icon: Flag,           href: "/calculator/korea",      color: "text-sky-600",     bg: "bg-sky-50 dark:bg-sky-950/40",         border: "border-sky-100 dark:border-sky-900" },
+  { key: "india",    icon: Flag,           href: "/calculator/india",      color: "text-orange-600",  bg: "bg-orange-50 dark:bg-orange-950/40",   border: "border-orange-100 dark:border-orange-900" },
 ] as const;
 
 const POPULAR = [
-  { nameKey: "basicCalculator",            href: "/calculator/math/basic",               emoji: "🔢" },
-  { nameKey: "percentageCalculator",       href: "/calculator/math/percentage",          emoji: "%" },
-  { nameKey: "bmiCalculator",              href: "/calculator/health/bmi",               emoji: "⚖️" },
-  { nameKey: "ageCalculator",              href: "/calculator/date/age",                 emoji: "🎂" },
-  { nameKey: "compoundInterestCalculator", href: "/calculator/finance/compound-interest", emoji: "📈" },
-  { nameKey: "loanCalculator",             href: "/calculator/finance/loan",             emoji: "🏦" },
-  { nameKey: "mortgageCalculator",         href: "/calculator/finance/mortgage",         emoji: "🏠" },
-  { nameKey: "calorieCalculator",          href: "/calculator/health/calorie",           emoji: "🔥" },
-  { nameKey: "gpaCalculator",             href: "/calculator/math/gpa",                emoji: "🎓" },
-  { nameKey: "salaryCalculator",          href: "/calculator/finance/salary",           emoji: "💰" },
-  { nameKey: "severancePayCalculator",   href: "/calculator/finance/severance-pay",    emoji: "💼" },
-  { nameKey: "discountCalculator",       href: "/calculator/math/discount",            emoji: "🏷️" },
+  { nameKey: "loanCalculator",             href: "/calculator/finance/loan",             emoji: "🏦" },  // #1 loan calculator
+  { nameKey: "mortgageCalculator",         href: "/calculator/finance/mortgage",         emoji: "🏠" },  // #3 mortgage calculator
+  { nameKey: "ageCalculator",              href: "/calculator/date/age",                 emoji: "🎂" },  // #4 age calculator
+  { nameKey: "bmiCalculator",              href: "/calculator/health/bmi",               emoji: "⚖️" },  // #5 bmi
+  { nameKey: "scientificCalculator",       href: "/calculator/math/scientific",          emoji: "🔬" },  // #13 scientific calculator
+  { nameKey: "emiCalculator",              href: "/calculator/india/emi",                emoji: "💳" },  // #14 emi calculator
+  { nameKey: "percentageCalculator",       href: "/calculator/math/percentage",          emoji: "%" },   // #24 percentage calculator
+  { nameKey: "graphCalculator",            href: "/calculator/math/graphing",            emoji: "📈" },  // #28 graphing calculator
+  { nameKey: "goldCalculator",             href: "/calculator/finance/gold",             emoji: "🥇" },  // #22 gold calculator
+  { nameKey: "gradeCalculator",            href: "/calculator/math/grade",               emoji: "📝" },  // #23 grade calculator
+  { nameKey: "compoundInterestCalculator", href: "/calculator/finance/compound-interest", emoji: "💹" },  // #43 compound interest
+  { nameKey: "calorieCalculator",          href: "/calculator/health/calorie",           emoji: "🔥" },  // #37 calories calculator
 ] as const;
 
 const WHY_ICONS = [ShieldCheck, Zap, Globe, Brain] as const;

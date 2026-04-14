@@ -57,6 +57,32 @@ const CALCULATORS = [
   "/calculator/tax/income-tax",
   "/calculator/tax/sales-tax",
   "/calculator/tax/vat",
+  // New calculators
+  "/calculator/math/average",
+  "/calculator/math/grade",
+  "/calculator/math/graphing",
+  "/calculator/math/solver",
+  "/calculator/finance/payment",
+  "/calculator/finance/gold",
+  "/calculator/finance/investment",
+  "/calculator/finance/inflation",
+  "/calculator/finance/auto-loan",
+  "/calculator/finance/car-payment",
+  "/calculator/finance/personal-loan",
+  "/calculator/finance/paycheck",
+  "/calculator/finance/pay",
+  "/calculator/date/time",
+  "/calculator/date/hours",
+  "/calculator/date/day",
+  "/calculator/health/tdee",
+  "/calculator/tax/tax-2026",
+  // India
+  "/calculator/india/emi",
+  "/calculator/india/gst",
+  "/calculator/india/sip",
+  "/calculator/india/fd",
+  "/calculator/india/ppf",
+  "/calculator/india/hra",
 ];
 
 const CATEGORY_PAGES = [
@@ -68,6 +94,7 @@ const CATEGORY_PAGES = [
   "/calculator/tax",
   "/calculator/living",
   "/calculator/korea",
+  "/calculator/india",
 ];
 
 const STATIC_PAGES = [

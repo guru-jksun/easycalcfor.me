@@ -22,6 +22,9 @@ const DATE_KEYS = [
   { nameKey: "timeDuration", descKey: "timeDurationDesc", href: "date/time-duration", emoji: "⏰" },
   { nameKey: "annualLeaveCalculator", descKey: "annualLeaveCalculatorDesc", href: "date/annual-leave", emoji: "🌴" },
   { nameKey: "militaryDischargeCalculator", descKey: "militaryDischargeCalculatorDesc", href: "date/military-discharge", emoji: "🎖️" },
+  { nameKey: "timeCalcCalculator", descKey: "timeCalcCalculatorDesc", href: "date/time", emoji: "⏱️" },
+  { nameKey: "hoursCalcCalculator", descKey: "hoursCalcCalculatorDesc", href: "date/hours", emoji: "🕐" },
+  { nameKey: "dayCalcCalculator", descKey: "dayCalcCalculatorDesc", href: "date/day", emoji: "📆" },
 ];
 
 export default async function DatePage(props: PageProps<"/[locale]/calculator/date">) {

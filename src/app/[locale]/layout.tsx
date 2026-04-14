@@ -23,9 +23,21 @@ export async function generateMetadata(props: LayoutProps<"/[locale]">): Promise
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, l === "en" ? baseUrl : `${baseUrl}/${l}`])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, l === "en" ? baseUrl : `${baseUrl}/${l}`])
+        ),
+        "hi-IN": `${baseUrl}/hi`,
+        "ko-KR": `${baseUrl}/ko`,
+        "ja-JP": `${baseUrl}/ja`,
+        "zh-CN": `${baseUrl}/zh`,
+        "pt-BR": `${baseUrl}/pt`,
+        "de-DE": `${baseUrl}/de`,
+        "fr-FR": `${baseUrl}/fr`,
+        "es-ES": `${baseUrl}/es`,
+        "ar-SA": `${baseUrl}/ar`,
+        "x-default": baseUrl,
+      },
     },
     openGraph: {
       type: "website",

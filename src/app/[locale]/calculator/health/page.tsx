@@ -24,6 +24,7 @@ const HEALTH_KEYS = [
   { nameKey: "oneRepMaxCalculator", descKey: "oneRepMaxCalculatorDesc", href: "health/one-rep-max", emoji: "🏋️" },
   { nameKey: "bacCalculator", descKey: "bacCalculatorDesc", href: "health/bac", emoji: "🍺" },
   { nameKey: "sleepCalculator", descKey: "sleepCalculatorDesc", href: "health/sleep", emoji: "😴" },
+  { nameKey: "tdeeCalculator", descKey: "tdeeCalculatorDesc", href: "health/tdee", emoji: "⚡" },
 ];
 
 export default async function HealthPage(props: PageProps<"/[locale]/calculator/health">) {

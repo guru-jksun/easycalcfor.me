@@ -25,6 +25,10 @@ const MATH_KEYS = [
   { nameKey: "gpaCalculator", descKey: "gpaCalculatorDesc", href: "math/gpa", emoji: "🎓" },
   { nameKey: "discountCalculator", descKey: "discountCalculatorDesc", href: "math/discount", emoji: "🏷️" },
   { nameKey: "passwordStrengthChecker", descKey: "passwordStrengthCheckerDesc", href: "math/password-strength", emoji: "🔒" },
+  { nameKey: "avgCalculator", descKey: "avgCalculatorDesc", href: "math/average", emoji: "📊" },
+  { nameKey: "gradeCalculator", descKey: "gradeCalculatorDesc", href: "math/grade", emoji: "📝" },
+  { nameKey: "graphCalculator", descKey: "graphCalculatorDesc", href: "math/graphing", emoji: "📈" },
+  { nameKey: "solverCalculator", descKey: "solverCalculatorDesc", href: "math/solver", emoji: "🧮" },
 ];
 
 export default async function MathPage(props: PageProps<"/[locale]/calculator/math">) {

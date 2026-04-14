@@ -29,6 +29,15 @@ const FINANCE_KEYS = [
   { nameKey: "capitalGainsTaxCalculator", descKey: "capitalGainsTaxCalculatorDesc", href: "finance/capital-gains-tax", emoji: "📋" },
   { nameKey: "severancePayCalculator", descKey: "severancePayCalculatorDesc", href: "finance/severance-pay", emoji: "💼" },
   { nameKey: "housingPointsCalculator", descKey: "housingPointsCalculatorDesc", href: "finance/housing-points", emoji: "🏠" },
+  { nameKey: "paymentCalculator", descKey: "paymentCalculatorDesc", href: "finance/payment", emoji: "💳" },
+  { nameKey: "goldCalculator", descKey: "goldCalculatorDesc", href: "finance/gold", emoji: "🥇" },
+  { nameKey: "investCalculator", descKey: "investCalculatorDesc", href: "finance/investment", emoji: "📈" },
+  { nameKey: "inflationCalculator", descKey: "inflationCalculatorDesc", href: "finance/inflation", emoji: "📉" },
+  { nameKey: "autoLoanCalculator", descKey: "autoLoanCalculatorDesc", href: "finance/auto-loan", emoji: "🚗" },
+  { nameKey: "carPaymentCalculator", descKey: "carPaymentCalculatorDesc", href: "finance/car-payment", emoji: "🚙" },
+  { nameKey: "personalLoanCalculator", descKey: "personalLoanCalculatorDesc", href: "finance/personal-loan", emoji: "🏦" },
+  { nameKey: "paycheckCalculator", descKey: "paycheckCalculatorDesc", href: "finance/paycheck", emoji: "💵" },
+  { nameKey: "payCalcCalculator", descKey: "payCalcCalculatorDesc", href: "finance/pay", emoji: "💰" },
 ];
 
 export default async function FinancePage(props: PageProps<"/[locale]/calculator/finance">) {
