@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import TimeDurationClient from "@/components/calculators/TimeDurationClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/date/time-duration">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -100,7 +102,10 @@ export default async function TimeDurationPage(props: PageProps<"/[locale]/calcu
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["date/time-duration"]} />
+          </div>
           </div>
         </div>
 

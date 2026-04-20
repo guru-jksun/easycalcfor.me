@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import BmiCalculatorClient from "@/components/calculators/BmiCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/health/bmi">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -90,6 +92,8 @@ export default async function BmiPage(props: PageProps<"/[locale]/calculator/hea
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["health/bmi"]} />
           </div>
         </div>
 

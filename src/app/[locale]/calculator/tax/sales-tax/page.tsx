@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import SalesTaxCalculatorClient from "@/components/calculators/SalesTaxCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/tax/sales-tax">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -73,7 +75,10 @@ export default async function SalesTaxPage(props: PageProps<"/[locale]/calculato
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["tax/sales-tax"]} />
+          </div>
           </div>
         </div>
 

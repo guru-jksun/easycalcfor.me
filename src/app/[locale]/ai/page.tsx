@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import Link from "next/link";
 import AiCalculatorClient from "@/components/calculators/AiCalculatorClient";
 
 export async function generateMetadata(props: PageProps<"/[locale]/ai">): Promise<Metadata> {
@@ -49,6 +50,15 @@ export default async function AiCalculatorPage(props: PageProps<"/[locale]/ai">)
             </a>
           ))}
         </div>
+      </div>
+
+      <div className="mt-8 text-center">
+        <Link
+          href={`/${locale}/ai/guide`}
+          className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
+        >
+          {t("guideTitle")} &rarr;
+        </Link>
       </div>
     </div>
   );

@@ -100,6 +100,7 @@ const CATEGORY_PAGES = [
 const STATIC_PAGES = [
   "/",
   "/ai",
+  "/ai/guide",
   "/about",
   "/contact",
   "/privacy",

@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import CompoundInterestClient from "@/components/calculators/CompoundInterestClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/compound-interest">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -84,6 +86,8 @@ export default async function CompoundInterestPage(props: PageProps<"/[locale]/c
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/compound-interest"]} />
           </div>
         </div>
 

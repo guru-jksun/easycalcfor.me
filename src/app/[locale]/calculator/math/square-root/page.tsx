@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import SquareRootCalculatorClient from "@/components/calculators/SquareRootCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/square-root">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -101,7 +103,10 @@ export default async function SquareRootPage(props: PageProps<"/[locale]/calcula
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/square-root"]} />
+          </div>
           </div>
         </div>
 

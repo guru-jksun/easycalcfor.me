@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import AverageCalculatorClient from "@/components/calculators/AverageCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/average">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -74,7 +76,10 @@ export default async function Page(props: PageProps<"/[locale]/calculator/math/a
                   <p className="text-sm text-muted-foreground">{t("avgFaq2A")}</p>
                 </div>
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/average"]} />
+          </div>
           </div>
         </div>
         <div className="mt-10"><AdBanner slot="calc-bottom" format="horizontal" /></div>

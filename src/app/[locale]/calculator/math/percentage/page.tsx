@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import PercentageCalculatorClient from "@/components/calculators/PercentageCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/percentage">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -97,6 +99,8 @@ export default async function PercentagePage(props: PageProps<"/[locale]/calcula
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/percentage"]} />
           </div>
         </div>
 

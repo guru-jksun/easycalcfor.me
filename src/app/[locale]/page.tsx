@@ -7,6 +7,7 @@ import {
   Zap, Globe, Brain, ShieldCheck, Star,
   Sparkles, Flag,
 } from "lucide-react";
+import { getExamplesForLocale } from "@/data/ai-guide-examples";
 import { WebsiteJsonLd } from "@/components/seo/JsonLd";
 import AiSearchBar from "@/components/calculators/AiSearchBar";
 import ScientificCalculatorClient from "@/components/calculators/ScientificCalculatorClient";
@@ -99,19 +100,74 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
               t("heroExample4"), t("heroExample5"), t("heroExample6"),
             ]}
           />
-          <p className="text-sm font-medium text-primary mt-5 mb-2">💡 {t("heroAiHint")}</p>
-          <div className="flex flex-wrap justify-center gap-2 mt-4">
+        </div>
+      </section>
+
+      {/* ── Stats bar ── */}
+      <section className="px-4 -mt-10 pb-20">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-card border border-border rounded-2xl px-6 py-5 grid grid-cols-4 divide-x divide-border card-shadow">
             {([
-              t("heroExample1"), t("heroExample2"), t("heroExample3"),
-              t("heroExample4"), t("heroExample5"), t("heroExample6"),
-            ]).map((example) => (
-              <Link key={example} href={prefix(`/ai?q=${encodeURIComponent(example)}`)}>
-                <span className="inline-flex items-center px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-xs font-medium text-primary/80 hover:bg-primary/10 hover:text-primary transition-all cursor-pointer">
-                  {example}
-                </span>
-              </Link>
+              { value: "50+",  labelKey: "statCalculators" },
+              { value: "9",    labelKey: "statLanguages" },
+              { value: "100%", labelKey: "statFree" },
+              { value: "AI",   labelKey: "statAi" },
+            ] as const).map(({ value, labelKey }) => (
+              <div key={labelKey} className="text-center px-4">
+                <p className="text-2xl font-black text-primary leading-none mb-1">{value}</p>
+                <p className="text-[11px] text-muted-foreground font-medium">{t(labelKey)}</p>
+              </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── AI 100 Examples (inline) ── */}
+      <section className="px-4 pb-10">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-3 text-center">{t("aiExamplesTitle")}</h2>
+          <p className="text-muted-foreground text-center mb-10 text-base">{t("heroAiHint")}</p>
+          {(() => {
+            const examples = getExamplesForLocale(locale);
+            const CATS: { key: string; icon: string; colorClass: string }[] = [
+              { key: "math", icon: "🧮", colorClass: "bg-blue-500/10 text-blue-600 border-blue-500/20" },
+              { key: "finance", icon: "💰", colorClass: "bg-green-500/10 text-green-600 border-green-500/20" },
+              { key: "health", icon: "❤️", colorClass: "bg-red-500/10 text-red-600 border-red-500/20" },
+              { key: "date", icon: "📅", colorClass: "bg-purple-500/10 text-purple-600 border-purple-500/20" },
+              { key: "conversion", icon: "🔄", colorClass: "bg-orange-500/10 text-orange-600 border-orange-500/20" },
+              { key: "tax", icon: "💵", colorClass: "bg-yellow-500/10 text-yellow-600 border-yellow-500/20" },
+              { key: "daily", icon: "🏠", colorClass: "bg-teal-500/10 text-teal-600 border-teal-500/20" },
+            ];
+            const catLabels: Record<string, string> = {
+              math: tCat("math"), finance: tCat("finance"), health: tCat("health"),
+              date: tCat("date"), conversion: tCat("conversion"), tax: tCat("tax"), daily: t("aiDailyLife"),
+            };
+            return (
+              <div className="space-y-8">
+                {CATS.map(({ key, icon, colorClass }) => {
+                  const items = examples[key] || [];
+                  if (items.length === 0) return null;
+                  return (
+                    <div key={key}>
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm border ${colorClass}`}>{icon}</span>
+                        <h3 className="font-bold text-lg text-foreground">{catLabels[key]}</h3>
+                      </div>
+                      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                        {items.map((ex) => (
+                          <Link key={ex} href={prefix(`/ai?q=${encodeURIComponent(ex)}`)}>
+                            <div className="text-sm p-3 rounded-xl border border-border hover:border-primary/50 hover:bg-primary/5 transition-colors text-muted-foreground hover:text-foreground cursor-pointer">
+                              {ex}
+                            </div>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })()}
         </div>
       </section>
 
@@ -158,21 +214,66 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
       </section>
       */}
 
-      {/* ── Stats bar ── */}
-      <section className="px-4 pb-10">
-        <div className="max-w-3xl mx-auto">
-          <div className="bg-card border border-border rounded-2xl px-6 py-5 grid grid-cols-4 divide-x divide-border card-shadow">
-            {([
-              { value: "50+",  labelKey: "statCalculators" },
-              { value: "9",    labelKey: "statLanguages" },
-              { value: "100%", labelKey: "statFree" },
-              { value: "AI",   labelKey: "statAi" },
-            ] as const).map(({ value, labelKey }) => (
-              <div key={labelKey} className="text-center px-4">
-                <p className="text-2xl font-black text-primary leading-none mb-1">{value}</p>
-                <p className="text-[11px] text-muted-foreground font-medium">{t(labelKey)}</p>
+      {/* ── AI Feature ── */}
+      <section className="py-12 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-primary rounded-3xl overflow-hidden">
+            <div className="grid md:grid-cols-2 gap-0">
+              <div className="p-8 sm:p-12 flex flex-col justify-center">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white/90 text-xs font-semibold mb-5 w-fit border border-white/20">
+                  <Brain className="w-3 h-3" />
+                  AI-Powered
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold mb-3 text-white leading-tight">{t("aiTitle")}</h2>
+                <p className="text-white/75 mb-7 leading-relaxed">{t("aiSubtitle")}</p>
+                <ul className="space-y-3 mb-8">
+                  {[t("aiFeature1"), t("aiFeature2"), t("aiFeature3")].map((f) => (
+                    <li key={f} className="flex items-center gap-3 text-sm text-white/90">
+                      <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                        <div className="w-2 h-2 rounded-full bg-white" />
+                      </div>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  href={prefix("/ai")}
+                  className="inline-flex items-center gap-2 w-fit bg-white text-primary px-6 py-3 rounded-xl text-sm font-bold hover:bg-white/95 transition-colors shadow-sm"
+                >
+                  {t("tryAi")}
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
               </div>
-            ))}
+              <div className="bg-white/10 p-8 sm:p-12 flex items-center justify-center">
+                <div className="w-full max-w-xs bg-card rounded-2xl border border-white/20 overflow-hidden card-shadow-lg">
+                  <div className="flex items-center gap-2.5 px-4 py-3 border-b border-border">
+                    <div className="w-7 h-7 rounded-full bg-primary flex items-center justify-center">
+                      <Brain className="w-3.5 h-3.5 text-white" />
+                    </div>
+                    <span className="font-semibold text-sm text-foreground">{t("aiDemoTitle")}</span>
+                    <span className="ml-auto text-[10px] bg-emerald-50 text-emerald-600 px-2 py-0.5 rounded-full font-semibold border border-emerald-100">● {t("aiDemoOnline")}</span>
+                  </div>
+                  <div className="p-4 space-y-3">
+                    <div className="bg-muted rounded-xl px-3.5 py-2.5 text-xs max-w-[85%] text-foreground">
+                      $10,000 at 7% for 15 years?
+                    </div>
+                    <div className="bg-primary/10 rounded-xl px-3.5 py-2.5 text-xs ml-auto max-w-[85%]">
+                      <p className="font-bold text-primary text-sm">$27,590.32</p>
+                      <p className="text-muted-foreground mt-0.5 font-mono text-[10px]">A = P(1 + r/n)^(nt)</p>
+                      <p className="mt-1 text-foreground">+$17,590 (175% growth) 🚀</p>
+                    </div>
+                  </div>
+                  <div className="px-4 pb-4">
+                    <div className="flex items-center gap-2 bg-muted rounded-xl px-3 py-2 border border-border">
+                      <input className="flex-1 bg-transparent text-xs outline-none text-muted-foreground" placeholder={t("aiDemoPlaceholder")} readOnly />
+                      <div className="w-6 h-6 rounded-lg bg-primary flex items-center justify-center shrink-0">
+                        <ArrowRight className="w-3 h-3 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -220,77 +321,10 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
         </div>
       </section>
 
-      {/* ── Ad: Between Popular & AI ── */}
+      {/* ── Ad: Between Popular & Why ── */}
       <section className="px-4 py-4">
         <div className="max-w-5xl mx-auto">
           <AdBanner slot="home-mid" format="horizontal" />
-        </div>
-      </section>
-
-      {/* ── AI Feature ── */}
-      <section className="py-12 px-4">
-        <div className="max-w-5xl mx-auto">
-          <div className="bg-primary rounded-3xl overflow-hidden">
-            <div className="grid md:grid-cols-2 gap-0">
-              {/* Left: Text */}
-              <div className="p-8 sm:p-12 flex flex-col justify-center">
-                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white/90 text-xs font-semibold mb-5 w-fit border border-white/20">
-                  <Brain className="w-3 h-3" />
-                  AI-Powered
-                </div>
-                <h2 className="text-3xl sm:text-4xl font-extrabold mb-3 text-white leading-tight">{t("aiTitle")}</h2>
-                <p className="text-white/75 mb-7 leading-relaxed">{t("aiSubtitle")}</p>
-                <ul className="space-y-3 mb-8">
-                  {[t("aiFeature1"), t("aiFeature2"), t("aiFeature3")].map((f) => (
-                    <li key={f} className="flex items-center gap-3 text-sm text-white/90">
-                      <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
-                        <div className="w-2 h-2 rounded-full bg-white" />
-                      </div>
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <Link
-                  href={prefix("/ai")}
-                  className="inline-flex items-center gap-2 w-fit bg-white text-primary px-6 py-3 rounded-xl text-sm font-bold hover:bg-white/95 transition-colors shadow-sm"
-                >
-                  {t("tryAi")}
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-
-              {/* Right: Chat demo */}
-              <div className="bg-white/10 p-8 sm:p-12 flex items-center justify-center">
-                <div className="w-full max-w-xs bg-card rounded-2xl border border-white/20 overflow-hidden card-shadow-lg">
-                  <div className="flex items-center gap-2.5 px-4 py-3 border-b border-border">
-                    <div className="w-7 h-7 rounded-full bg-primary flex items-center justify-center">
-                      <Brain className="w-3.5 h-3.5 text-white" />
-                    </div>
-                    <span className="font-semibold text-sm text-foreground">{t("aiDemoTitle")}</span>
-                    <span className="ml-auto text-[10px] bg-emerald-50 text-emerald-600 px-2 py-0.5 rounded-full font-semibold border border-emerald-100">● {t("aiDemoOnline")}</span>
-                  </div>
-                  <div className="p-4 space-y-3">
-                    <div className="bg-muted rounded-xl px-3.5 py-2.5 text-xs max-w-[85%] text-foreground">
-                      $10,000 at 7% for 15 years?
-                    </div>
-                    <div className="bg-primary/10 rounded-xl px-3.5 py-2.5 text-xs ml-auto max-w-[85%]">
-                      <p className="font-bold text-primary text-sm">$27,590.32</p>
-                      <p className="text-muted-foreground mt-0.5 font-mono text-[10px]">A = P(1 + r/n)^(nt)</p>
-                      <p className="mt-1 text-foreground">+$17,590 (175% growth) 🚀</p>
-                    </div>
-                  </div>
-                  <div className="px-4 pb-4">
-                    <div className="flex items-center gap-2 bg-muted rounded-xl px-3 py-2 border border-border">
-                      <input className="flex-1 bg-transparent text-xs outline-none text-muted-foreground" placeholder={t("aiDemoPlaceholder")} readOnly />
-                      <div className="w-6 h-6 rounded-lg bg-primary flex items-center justify-center shrink-0">
-                        <ArrowRight className="w-3 h-3 text-white" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 

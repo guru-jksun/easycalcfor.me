@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import GradeCalculatorClient from "@/components/calculators/GradeCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/grade">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -75,6 +77,8 @@ export default async function Page(props: PageProps<"/[locale]/calculator/math/g
                 </div>
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/grade"]} />
           </div>
         </div>
         <div className="mt-10"><AdBanner slot="calc-bottom" format="horizontal" /></div>

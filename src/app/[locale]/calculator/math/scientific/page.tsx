@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import ScientificCalculatorClient from "@/components/calculators/ScientificCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/scientific">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -101,6 +103,8 @@ export default async function ScientificPage(props: PageProps<"/[locale]/calcula
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/scientific"]} />
           </div>
         </div>
 

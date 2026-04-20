@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import PpfCalculatorClient from "@/components/calculators/PpfCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/india/ppf">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -82,7 +84,10 @@ export default async function PpfCalculatorPage(props: PageProps<"/[locale]/calc
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["india/ppf"]} />
+          </div>
           </div>
         </div>
         <div className="mt-10">

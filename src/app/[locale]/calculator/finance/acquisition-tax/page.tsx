@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import AcquisitionTaxClient from "@/components/calculators/AcquisitionTaxClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/acquisition-tax">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -69,7 +71,10 @@ export default async function AcquisitionTaxPage(props: PageProps<"/[locale]/cal
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/acquisition-tax"]} />
+          </div>
           </div>
         </div>
 

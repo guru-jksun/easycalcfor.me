@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import PrimeCheckerClient from "@/components/calculators/PrimeCheckerClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/prime">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -94,7 +96,10 @@ export default async function PrimePage(props: PageProps<"/[locale]/calculator/m
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/prime"]} />
+          </div>
           </div>
         </div>
 

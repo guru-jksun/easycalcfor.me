@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import DiscountCalculatorClient from "@/components/calculators/DiscountCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/discount">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -69,7 +71,10 @@ export default async function DiscountPage(props: PageProps<"/[locale]/calculato
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/discount"]} />
+          </div>
           </div>
         </div>
 

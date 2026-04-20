@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import TimeCalculatorClient from "@/components/calculators/TimeCalculatorClient";
+import HoursCalculatorClient from "@/components/calculators/HoursCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/date/hours">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -30,7 +32,7 @@ export default async function Page(props: PageProps<"/[locale]/calculator/date/h
           <div>
             <h1 className="text-3xl font-bold mb-2">{t("hoursCalcCalculator")}</h1>
             <p className="text-muted-foreground mb-6">{t("hoursCalcCalculatorDesc")}</p>
-            <TimeCalculatorClient />
+            <HoursCalculatorClient />
           </div>
           <div className="space-y-6">
             <div className="rounded-xl border p-6 bg-card">
@@ -50,7 +52,10 @@ export default async function Page(props: PageProps<"/[locale]/calculator/date/h
                 <div><h3 className="font-medium text-sm mb-1">{t("timeCalcFaq1Q")}</h3><p className="text-sm text-muted-foreground">{t("timeCalcFaq1A")}</p></div>
                 <div><h3 className="font-medium text-sm mb-1">{t("timeCalcFaq2Q")}</h3><p className="text-sm text-muted-foreground">{t("timeCalcFaq2A")}</p></div>
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["date/hours"]} />
+          </div>
           </div>
         </div>
         <div className="mt-10"><AdBanner slot="calc-bottom" format="horizontal" /></div>

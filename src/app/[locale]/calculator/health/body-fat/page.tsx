@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import BodyFatCalculatorClient from "@/components/calculators/BodyFatCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/health/body-fat">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -111,7 +113,10 @@ export default async function BodyFatPage(props: PageProps<"/[locale]/calculator
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["health/body-fat"]} />
+          </div>
           </div>
         </div>
 

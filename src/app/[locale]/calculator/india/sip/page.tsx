@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import SipCalculatorClient from "@/components/calculators/SipCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/india/sip">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -83,7 +85,10 @@ export default async function SipCalculatorPage(props: PageProps<"/[locale]/calc
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["india/sip"]} />
+          </div>
           </div>
         </div>
         <div className="mt-10">

@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import OneRepMaxCalculatorClient from "@/components/calculators/OneRepMaxCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/health/one-rep-max">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -109,7 +111,10 @@ export default async function OneRepMaxPage(props: PageProps<"/[locale]/calculat
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["health/one-rep-max"]} />
+          </div>
           </div>
         </div>
 

@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import RentCompareClient from "@/components/calculators/RentCompareClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/rent-compare">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -69,7 +71,10 @@ export default async function RentComparePage(props: PageProps<"/[locale]/calcul
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/rent-compare"]} />
+          </div>
           </div>
         </div>
 

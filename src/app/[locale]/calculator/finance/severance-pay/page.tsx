@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import SeverancePayClient from "@/components/calculators/SeverancePayClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/severance-pay">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -77,7 +79,10 @@ export default async function SeverancePayPage(props: PageProps<"/[locale]/calcu
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/severance-pay"]} />
+          </div>
           </div>
         </div>
 

@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import PaymentCalculatorClient from "@/components/calculators/PaymentCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/payment">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -51,6 +53,8 @@ export default async function Page(props: PageProps<"/[locale]/calculator/financ
                 <div><h3 className="font-medium text-sm mb-1">{t("paymentFaq2Q")}</h3><p className="text-sm text-muted-foreground">{t("paymentFaq2A")}</p></div>
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/payment"]} />
           </div>
         </div>
         <div className="mt-10"><AdBanner slot="calc-bottom" format="horizontal" /></div>

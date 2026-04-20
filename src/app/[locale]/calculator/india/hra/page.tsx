@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import HraCalculatorClient from "@/components/calculators/HraCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/india/hra">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -80,7 +82,10 @@ export default async function HraCalculatorPage(props: PageProps<"/[locale]/calc
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["india/hra"]} />
+          </div>
           </div>
         </div>
         <div className="mt-10">

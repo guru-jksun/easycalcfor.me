@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import CalorieCalculatorClient from "@/components/calculators/CalorieCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/health/calorie">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -93,6 +95,8 @@ export default async function CaloriePage(props: PageProps<"/[locale]/calculator
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["health/calorie"]} />
           </div>
         </div>
 

@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import VatCalculatorClient from "@/components/calculators/VatCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/tax/vat">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -75,7 +77,10 @@ export default async function VatPage(props: PageProps<"/[locale]/calculator/tax
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["tax/vat"]} />
+          </div>
           </div>
         </div>
 

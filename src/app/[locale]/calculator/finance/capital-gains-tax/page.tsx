@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import CapitalGainsTaxClient from "@/components/calculators/CapitalGainsTaxClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/capital-gains-tax">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -69,7 +71,10 @@ export default async function CapitalGainsTaxPage(props: PageProps<"/[locale]/ca
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/capital-gains-tax"]} />
+          </div>
           </div>
         </div>
 

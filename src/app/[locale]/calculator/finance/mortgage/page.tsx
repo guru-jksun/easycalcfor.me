@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import MortgageCalculatorClient from "@/components/calculators/MortgageCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/mortgage">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -85,6 +87,8 @@ export default async function MortgageCalculatorPage(props: PageProps<"/[locale]
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/mortgage"]} />
           </div>
         </div>
 

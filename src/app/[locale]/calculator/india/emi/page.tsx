@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import EmiCalculatorClient from "@/components/calculators/EmiCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/india/emi">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -83,6 +85,8 @@ export default async function EmiCalculatorPage(props: PageProps<"/[locale]/calc
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["india/emi"]} />
           </div>
         </div>
         <div className="mt-10">

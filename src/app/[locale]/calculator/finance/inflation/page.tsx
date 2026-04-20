@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import InflationCalculatorClient from "@/components/calculators/InflationCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/finance/inflation">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -50,7 +52,10 @@ export default async function Page(props: PageProps<"/[locale]/calculator/financ
                 <div><h3 className="font-medium text-sm mb-1">{t("inflationFaq1Q")}</h3><p className="text-sm text-muted-foreground">{t("inflationFaq1A")}</p></div>
                 <div><h3 className="font-medium text-sm mb-1">{t("inflationFaq2Q")}</h3><p className="text-sm text-muted-foreground">{t("inflationFaq2A")}</p></div>
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["finance/inflation"]} />
+          </div>
           </div>
         </div>
         <div className="mt-10"><AdBanner slot="calc-bottom" format="horizontal" /></div>

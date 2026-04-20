@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import FractionCalculatorClient from "@/components/calculators/FractionCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/math/fraction">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -99,7 +101,10 @@ export default async function FractionPage(props: PageProps<"/[locale]/calculato
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["math/fraction"]} />
+          </div>
           </div>
         </div>
 

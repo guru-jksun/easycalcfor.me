@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import AgeCalculatorClient from "@/components/calculators/AgeCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/date/age">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -95,6 +97,8 @@ export default async function AgePage(props: PageProps<"/[locale]/calculator/dat
                 ))}
               </div>
             </div>
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["date/age"]} />
           </div>
         </div>
 

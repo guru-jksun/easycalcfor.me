@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import GstCalculatorClient from "@/components/calculators/GstCalculatorClient";
 import { CalculatorJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import AdBanner from "@/components/ads/AdBanner";
+import AiPromptExamples from "@/components/calculators/AiPromptExamples";
+import { AI_PROMPTS } from "@/data/ai-prompts";
 
 export async function generateMetadata(props: PageProps<"/[locale]/calculator/india/gst">): Promise<Metadata> {
   const { locale } = await props.params;
@@ -90,7 +92,10 @@ export default async function GstCalculatorPage(props: PageProps<"/[locale]/calc
                   </div>
                 ))}
               </div>
-            </div>
+            
+
+            <AiPromptExamples locale={locale} prompts={AI_PROMPTS["india/gst"]} />
+          </div>
           </div>
         </div>
         <div className="mt-10">

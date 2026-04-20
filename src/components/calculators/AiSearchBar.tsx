@@ -40,19 +40,20 @@ export default function AiSearchBar({ locale, placeholder, buttonText, examples 
 
   return (
     <form onSubmit={handleSubmit} className="w-full mx-auto">
-      <div className="relative flex items-center bg-card border-2 border-border focus-within:border-primary rounded-2xl card-shadow transition-colors overflow-hidden">
-        <Sparkles className="absolute left-4 rtl:left-auto rtl:right-4 w-5 h-5 text-primary pointer-events-none" />
+      <div className="relative flex items-start bg-card border-2 border-border focus-within:border-primary rounded-2xl card-shadow transition-colors overflow-hidden">
+        <Sparkles className="absolute left-4 rtl:left-auto rtl:right-4 top-4 w-5 h-5 text-primary pointer-events-none" />
         <div className="relative flex-1">
-          <input
-            type="text"
+          <textarea
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleSubmit(e as unknown as React.FormEvent); } }}
             placeholder=" "
-            className="flex-1 w-full bg-transparent pl-12 pr-4 rtl:pl-4 rtl:pr-12 py-4 text-sm sm:text-base outline-none peer"
+            rows={2}
+            className="flex-1 w-full bg-transparent pl-12 pr-4 rtl:pl-4 rtl:pr-12 py-4 text-sm sm:text-base outline-none resize-none peer"
           />
           {!query && (
             <span
-              className={`absolute left-12 rtl:left-auto rtl:right-12 top-1/2 -translate-y-1/2 text-sm sm:text-base text-muted-foreground pointer-events-none transition-opacity duration-300 ${fade ? "opacity-100" : "opacity-0"}`}
+              className={`absolute left-12 rtl:left-auto rtl:right-12 top-4 text-sm sm:text-base text-muted-foreground pointer-events-none transition-opacity duration-300 ${fade ? "opacity-100" : "opacity-0"}`}
             >
               {displayPlaceholder}
             </span>
@@ -60,7 +61,7 @@ export default function AiSearchBar({ locale, placeholder, buttonText, examples 
         </div>
         <Button
           type="submit"
-          className="m-1.5 rounded-xl gap-2 shrink-0"
+          className="m-1.5 mt-3 rounded-xl gap-2 shrink-0"
           disabled={!query.trim()}
         >
           <Search className="w-4 h-4" />
