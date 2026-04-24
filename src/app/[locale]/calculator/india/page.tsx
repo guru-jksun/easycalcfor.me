@@ -15,9 +15,13 @@ export async function generateMetadata(props: PageProps<"/[locale]/calculator/in
 }
 
 const INDIA_KEYS = [
+  { nameKey: "itCalculator", descKey: "itCalculatorDesc", href: "india/income-tax", emoji: "📊" },
+  { nameKey: "thsCalculator", descKey: "thsCalculatorDesc", href: "india/take-home-salary", emoji: "💰" },
   { nameKey: "emiCalculator", descKey: "emiCalculatorDesc", href: "india/emi", emoji: "🏦" },
   { nameKey: "gstCalculator", descKey: "gstCalculatorDesc", href: "india/gst", emoji: "🧾" },
   { nameKey: "sipCalculator", descKey: "sipCalculatorDesc", href: "india/sip", emoji: "📈" },
+  { nameKey: "npsCalculator", descKey: "npsCalculatorDesc", href: "india/nps", emoji: "👵" },
+  { nameKey: "gratCalculator", descKey: "gratCalculatorDesc", href: "india/gratuity", emoji: "🎁" },
   { nameKey: "fdCalculator", descKey: "fdCalculatorDesc", href: "india/fd", emoji: "🏧" },
   { nameKey: "ppfCalculator", descKey: "ppfCalculatorDesc", href: "india/ppf", emoji: "🏛️" },
   { nameKey: "hraCalculator", descKey: "hraCalculatorDesc", href: "india/hra", emoji: "🏠" },
@@ -38,7 +42,7 @@ export default async function IndiaPage(props: PageProps<"/[locale]/calculator/i
         url={`${baseUrl}/${locale}/calculator/india`}
         locale={locale}
         faqItems={[
-          { question: "What India-specific calculators are available?", answer: "EMI calculator, GST calculator, SIP calculator, FD calculator, PPF calculator, and HRA calculator — all designed for Indian financial calculations." },
+          { question: "What India-specific calculators are available?", answer: "Income Tax Calculator (Old vs New Regime), Take-home Salary Calculator, EMI, GST, SIP, NPS, Gratuity, FD, PPF, and HRA calculators — all designed for Indian financial calculations." },
           { question: "Are these calculators free?", answer: "Yes, all calculators on EasyCalcFor.me are completely free with no registration required." },
         ]}
       />

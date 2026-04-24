@@ -83,6 +83,10 @@ const CALCULATORS = [
   "/calculator/india/fd",
   "/calculator/india/ppf",
   "/calculator/india/hra",
+  "/calculator/india/income-tax",
+  "/calculator/india/take-home-salary",
+  "/calculator/india/nps",
+  "/calculator/india/gratuity",
 ];
 
 const CATEGORY_PAGES = [

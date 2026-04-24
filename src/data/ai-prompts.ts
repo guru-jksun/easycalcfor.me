@@ -362,4 +362,24 @@ export const AI_PROMPTS: Record<string, string[]> = {
     "How to calculate HRA tax benefit?",
     "HRA deduction for metro vs non-metro city",
   ],
+  "india/income-tax": [
+    "Income tax on ₹12 lakh salary in FY 2025-26 new regime",
+    "Old vs new tax regime for ₹15 lakh salary with 80C & HRA",
+    "Tax on ₹25 lakh income with ₹2 lakh home loan interest and ₹1.5 lakh 80C",
+  ],
+  "india/take-home-salary": [
+    "In-hand salary for ₹12 LPA CTC in Mumbai",
+    "Take-home pay for ₹18 LPA with 50% basic and ₹20,000 HRA rent",
+    "Net salary calculation for ₹8 LPA in new tax regime",
+  ],
+  "india/nps": [
+    "NPS corpus if I invest ₹5,000 per month from age 30 to 60 at 10%",
+    "Monthly pension from NPS corpus of ₹1 crore with 40% annuity",
+    "How much to invest monthly in NPS to retire with ₹2 crore at 60?",
+  ],
+  "india/gratuity": [
+    "Gratuity for ₹60,000 last salary and 10 years of service",
+    "Gratuity tax exemption limit for private employee in 2026",
+    "How much gratuity after 7 years 3 months service at ₹80,000 salary?",
+  ],
 };

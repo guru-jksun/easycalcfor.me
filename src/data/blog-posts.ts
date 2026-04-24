@@ -19796,6 +19796,2006 @@ Compre de distribuidores licenciados, compare 2-3 cotações, guarde certificado
 `,
     },
   },
+  {
+    slug: "income-tax-india-new-vs-old-regime-2025-26",
+    category: "india",
+    date: "2026-04-24",
+    readingTime: 9,
+    calculatorLink: "/calculator/india/income-tax",
+    title: {
+      en: "Income Tax India FY 2025-26: New vs Old Regime — Which Saves More?",
+      hi: "आयकर भारत FY 2025-26: नई बनाम पुरानी व्यवस्था — कौन सी अधिक बचाती है?",
+      ko: "인도 소득세 FY 2025-26: 신·구 과세 체계 어느 쪽이 유리한가",
+      ja: "インド所得税 FY 2025-26: 新旧税制、どちらが節税?",
+      zh: "印度所得税 FY 2025-26: 新旧税制哪个更省?",
+      ar: "ضريبة الدخل في الهند FY 2025-26: النظام الجديد مقابل القديم",
+      es: "Impuesto sobre la renta India FY 2025-26: Nuevo vs antiguo régimen",
+      fr: "Impôt sur le revenu Inde FY 2025-26 : nouveau vs ancien régime",
+      de: "Einkommensteuer Indien FY 2025-26: Neues vs altes System",
+      pt: "Imposto de renda Índia FY 2025-26: novo vs antigo regime",
+    },
+    summary: {
+      en: "The New Regime offers rebate up to ₹12 lakh income, making tax zero. But the Old Regime can still win if your 80C, HRA, and home loan interest exceed ₹3.5 lakh. Here's how to pick.",
+      hi: "नई व्यवस्था ₹12 लाख तक की आय पर छूट देती है, जिससे कर शून्य हो जाता है। लेकिन यदि आपके 80C, HRA और गृह ऋण ब्याज ₹3.5 लाख से अधिक हैं, तो पुरानी व्यवस्था अभी भी जीत सकती है।",
+      ko: "신 체계는 ₹12 lakh까지 소득에 감면을 주어 세금을 0으로 만듭니다. 하지만 80C, HRA, 주택대출이자가 ₹3.5 lakh를 넘으면 구 체계가 여전히 유리할 수 있습니다.",
+      ja: "新税制は₹12 lakhまでの所得に還付があり、税額がゼロになります。ただし80C、HRA、住宅ローン利息が₹3.5 lakhを超える場合、旧税制がまだ勝つことがあります。",
+      zh: "新税制对₹12 lakh以下收入提供退税,使税额为零。但若80C、HRA和房贷利息合计超过₹3.5 lakh,旧税制仍可能获胜。",
+      ar: "يقدم النظام الجديد إعفاء للدخل حتى ₹12 lakh مما يجعل الضريبة صفراً. لكن النظام القديم قد يتفوق إذا تجاوزت خصومات 80C وHRA وفوائد القرض ₹3.5 lakh.",
+      es: "El Nuevo Régimen ofrece rebaja hasta ₹12 lakh de ingresos, haciendo el impuesto cero. Pero el Antiguo puede ganar si tus 80C, HRA y préstamo superan ₹3.5 lakh.",
+      fr: "Le nouveau régime offre une remise jusqu'à ₹12 lakh, rendant l'impôt nul. Mais l'ancien peut gagner si 80C, HRA et prêt dépassent ₹3.5 lakh.",
+      de: "Das neue System bietet Erstattung bis ₹12 lakh Einkommen, wodurch die Steuer null wird. Das alte kann gewinnen, wenn 80C, HRA und Zinsen ₹3.5 lakh übersteigen.",
+      pt: "O novo regime oferece reembolso até ₹12 lakh de renda, zerando o imposto. Mas o antigo pode vencer se 80C, HRA e juros superarem ₹3.5 lakh.",
+    },
+    content: {
+      en: `## Income Tax India FY 2025-26: Full Guide to New vs Old Regime
+
+The Union Budget 2025 changed the game for Indian taxpayers. The New Tax Regime now offers effective zero tax for incomes up to **₹12 lakh** — a massive relief for the middle class. But does that mean the Old Regime is dead? Not quite.
+
+This guide walks you through:
+- The exact FY 2025-26 slabs for both regimes
+- When the Old Regime still wins
+- Real-world examples for ₹8L, ₹15L, ₹25L, and ₹50L salaries
+- A ready-to-use [Income Tax Calculator](/en/calculator/india/income-tax) that compares both side by side
+
+### New Regime Slabs (FY 2025-26)
+
+| Income Range | Tax Rate |
+|---|---|
+| Up to ₹4,00,000 | 0% |
+| ₹4,00,001 – ₹8,00,000 | 5% |
+| ₹8,00,001 – ₹12,00,000 | 10% |
+| ₹12,00,001 – ₹16,00,000 | 15% |
+| ₹16,00,001 – ₹20,00,000 | 20% |
+| ₹20,00,001 – ₹24,00,000 | 25% |
+| Above ₹24,00,000 | 30% |
+
+**Key additions in Budget 2025:**
+- Standard deduction increased from ₹50,000 to **₹75,000**
+- Rebate u/s 87A increased — taxable income up to ₹12 lakh pays **zero tax** (rebate amount: ₹60,000)
+- For salaried, the effective zero-tax threshold becomes **₹12.75 lakh** (₹12L + ₹75K standard deduction)
+
+### Old Regime Slabs (unchanged)
+
+| Income Range | Tax Rate |
+|---|---|
+| Up to ₹2,50,000 | 0% |
+| ₹2,50,001 – ₹5,00,000 | 5% |
+| ₹5,00,001 – ₹10,00,000 | 20% |
+| Above ₹10,00,000 | 30% |
+
+Old Regime keeps all the deductions: 80C (₹1.5L), 80D, HRA, home loan interest u/s 24 (₹2L), NPS u/s 80CCD(1B) (₹50K extra), LTA, etc.
+
+### The Break-even Point
+
+**Rule of thumb:** If your total deductions exceed roughly **₹3.5 – ₹4 lakh**, the Old Regime starts winning. Below that, go with the New Regime.
+
+#### Example 1: ₹10 lakh salary, no significant deductions
+- **New Regime:** Taxable = ₹9.25L (after ₹75K std ded). Tax on slabs = ₹42,500. Rebate 87A applies (taxable < ₹12L) → **Tax = 0**.
+- **Old Regime:** Taxable = ₹9.5L (after ₹50K std ded). Tax = ₹1,12,500 + 4% cess = **₹1,17,000**.
+- **Winner:** New Regime saves ₹1,17,000.
+
+#### Example 2: ₹15 lakh salary with ₹1.5L 80C + ₹2L home loan + ₹1.2L HRA
+- **New Regime:** Taxable = ₹14.25L. Tax = ₹1,05,000 + 4% cess = **₹1,09,200**.
+- **Old Regime:** Taxable = ₹15L − ₹50K − ₹1.5L − ₹2L − ₹1.2L = ₹9.8L. Tax = ₹1,06,000 + 4% cess = **₹1,10,240**.
+- **Winner:** New Regime by a hair (₹1,040).
+
+#### Example 3: ₹15 lakh salary with ₹1.5L 80C + ₹2L home loan + ₹2.4L HRA + ₹50K NPS
+- **Old Regime:** Taxable = ₹15L − ₹50K − ₹1.5L − ₹2L − ₹2.4L − ₹50K = ₹8.1L. Tax = ₹74,500 + cess = **₹77,480**.
+- **New Regime:** Same ₹1,09,200 as above.
+- **Winner:** Old Regime saves ₹31,720.
+
+### Choosing the Right Regime
+
+**Choose New Regime if you:**
+- Don't claim HRA (own your home outright or live with family)
+- Don't have a home loan
+- Your 80C investments are minimal (no ELSS, no PPF contribution)
+- Value simplicity of filing
+
+**Choose Old Regime if you:**
+- Pay rent and claim HRA (₹1L+ annual)
+- Have a home loan with significant interest (> ₹1.5L/year)
+- Max out ₹1.5L under 80C (EPF + PPF + ELSS + life insurance)
+- Claim ₹50K additional under NPS 80CCD(1B)
+- Have health insurance for parents (80D up to ₹75K)
+
+### Surcharge & Cess — Often Forgotten
+
+Both regimes add **4% Health & Education Cess** on tax. On top:
+- Taxable income ₹50L – ₹1cr: **10% surcharge**
+- ₹1cr – ₹2cr: **15%**
+- ₹2cr – ₹5cr: **25%**
+- Above ₹5cr: **37% (Old Regime only)** / 25% (New Regime caps at 25%)
+
+This makes the effective top rate in New Regime ~39% for very high earners, while Old Regime can hit ~42.7%.
+
+### Switching Between Regimes
+
+- **Salaried (no business income):** You can switch every year at filing.
+- **Business/professional income:** You can switch only once in a lifetime back to the Old Regime, then stuck in New.
+
+### Common Mistakes
+
+1. **Forgetting rebate 87A:** If your taxable income is exactly ₹12L in New Regime, tax is zero. But at ₹12,00,001, you pay ₹60,001 (marginal relief applies — cap the tax at the amount exceeding ₹12L).
+2. **Not counting employer NPS in New Regime:** 80CCD(2) is available in both regimes and doesn't require itemizing — up to 10% of basic salary (14% for govt employees).
+3. **Ignoring professional tax:** State-level deduction of ~₹2,500/year is valid in Old Regime only.
+
+### Use the Calculator
+
+Our [Income Tax Calculator for India](/en/calculator/india/income-tax) runs both regimes simultaneously and tells you which saves more — just enter your gross salary and deductions. Zero signup, free, works on mobile.
+
+### Official Sources
+
+- [Income Tax Department Slabs FY 2025-26](https://www.incometax.gov.in)
+- [Finance Act 2025](https://financialservices.gov.in)
+- [Rebate u/s 87A - Income Tax Rules](https://incometaxindia.gov.in)
+`,
+      hi: `## आयकर भारत FY 2025-26: नई बनाम पुरानी व्यवस्था की पूरी गाइड
+
+केंद्रीय बजट 2025 ने भारतीय करदाताओं के लिए खेल बदल दिया। नई कर व्यवस्था अब **₹12 लाख** तक की आय पर प्रभावी रूप से शून्य कर देती है — मध्यम वर्ग के लिए बड़ी राहत। लेकिन क्या इसका मतलब पुरानी व्यवस्था मर गई? बिल्कुल नहीं।
+
+यह गाइड आपको बताती है:
+- FY 2025-26 के लिए दोनों व्यवस्थाओं के सटीक स्लैब
+- पुरानी व्यवस्था अभी भी कब जीतती है
+- ₹8L, ₹15L, ₹25L और ₹50L वेतन के लिए वास्तविक उदाहरण
+- [आयकर कैलकुलेटर](/hi/calculator/india/income-tax) जो दोनों की तुलना साथ-साथ करता है
+
+### नई व्यवस्था के स्लैब (FY 2025-26)
+
+| आय सीमा | कर दर |
+|---|---|
+| ₹4,00,000 तक | 0% |
+| ₹4,00,001 – ₹8,00,000 | 5% |
+| ₹8,00,001 – ₹12,00,000 | 10% |
+| ₹12,00,001 – ₹16,00,000 | 15% |
+| ₹16,00,001 – ₹20,00,000 | 20% |
+| ₹20,00,001 – ₹24,00,000 | 25% |
+| ₹24,00,000 से अधिक | 30% |
+
+**बजट 2025 में मुख्य बदलाव:**
+- मानक कटौती ₹50,000 से बढ़कर **₹75,000**
+- धारा 87A छूट बढ़ी — ₹12 लाख तक कर योग्य आय पर **शून्य कर** (छूट राशि: ₹60,000)
+- वेतनभोगियों के लिए प्रभावी शून्य-कर सीमा **₹12.75 लाख** (₹12L + ₹75K मानक कटौती)
+
+### पुरानी व्यवस्था के स्लैब (अपरिवर्तित)
+
+| आय सीमा | कर दर |
+|---|---|
+| ₹2,50,000 तक | 0% |
+| ₹2,50,001 – ₹5,00,000 | 5% |
+| ₹5,00,001 – ₹10,00,000 | 20% |
+| ₹10,00,000 से अधिक | 30% |
+
+पुरानी व्यवस्था में सभी कटौतियाँ बनी हुई हैं: 80C (₹1.5L), 80D, HRA, गृह ऋण ब्याज धारा 24 (₹2L), NPS 80CCD(1B) (अतिरिक्त ₹50K), LTA, आदि।
+
+### ब्रेक-ईवन पॉइंट
+
+**सामान्य नियम:** यदि आपकी कुल कटौतियाँ **₹3.5 – ₹4 लाख** से अधिक हैं, तो पुरानी व्यवस्था जीतने लगती है। उससे कम पर नई व्यवस्था चुनें।
+
+#### उदाहरण 1: ₹10 लाख वेतन, कोई महत्वपूर्ण कटौती नहीं
+- **नई व्यवस्था:** कर योग्य = ₹9.25L। कर स्लैब पर = ₹42,500। 87A छूट लागू → **कर = 0**।
+- **पुरानी व्यवस्था:** कर योग्य = ₹9.5L। कर = ₹1,12,500 + 4% उपकर = **₹1,17,000**।
+- **विजेता:** नई व्यवस्था ₹1,17,000 बचाती है।
+
+#### उदाहरण 2: ₹15 लाख वेतन, ₹1.5L 80C + ₹2L गृह ऋण + ₹1.2L HRA
+- **नई व्यवस्था:** कर योग्य = ₹14.25L। कर = ₹1,05,000 + 4% उपकर = **₹1,09,200**।
+- **पुरानी व्यवस्था:** कर योग्य = ₹9.8L। कर = ₹1,06,000 + 4% उपकर = **₹1,10,240**।
+- **विजेता:** नई व्यवस्था बाल बराबर (₹1,040)।
+
+#### उदाहरण 3: ₹15 लाख वेतन, ₹1.5L 80C + ₹2L गृह ऋण + ₹2.4L HRA + ₹50K NPS
+- **पुरानी व्यवस्था:** कर योग्य = ₹8.1L। कर = ₹74,500 + उपकर = **₹77,480**।
+- **विजेता:** पुरानी व्यवस्था ₹31,720 बचाती है।
+
+### सही व्यवस्था चुनना
+
+**नई व्यवस्था चुनें यदि आप:**
+- HRA का दावा नहीं करते (अपना घर है या परिवार के साथ रहते हैं)
+- गृह ऋण नहीं है
+- 80C निवेश न्यूनतम हैं
+- फाइलिंग की सरलता पसंद करते हैं
+
+**पुरानी व्यवस्था चुनें यदि आप:**
+- किराया चुकाते हैं और HRA (₹1L+ वार्षिक) का दावा करते हैं
+- बड़ी ब्याज राशि वाला गृह ऋण है (> ₹1.5L/वर्ष)
+- 80C के तहत ₹1.5L अधिकतम करते हैं (EPF + PPF + ELSS)
+- NPS 80CCD(1B) के तहत अतिरिक्त ₹50K का दावा करते हैं
+- माता-पिता का स्वास्थ्य बीमा है (80D ₹75K तक)
+
+### अधिभार और उपकर — अक्सर भूल जाते हैं
+
+दोनों व्यवस्थाओं में कर पर **4% स्वास्थ्य एवं शिक्षा उपकर** जुड़ता है।
+- कर योग्य आय ₹50L – ₹1cr: **10% अधिभार**
+- ₹1cr – ₹2cr: **15%**
+- ₹2cr – ₹5cr: **25%**
+- ₹5cr से अधिक: **37% (केवल पुरानी)** / 25% (नई 25% पर सीमित)
+
+### व्यवस्थाओं के बीच स्विच करना
+
+- **वेतनभोगी:** आप हर साल फाइलिंग पर स्विच कर सकते हैं।
+- **व्यवसाय आय:** आप पुरानी में केवल एक बार जीवन में वापस जा सकते हैं।
+
+### कैलकुलेटर का उपयोग करें
+
+हमारा [भारत के लिए आयकर कैलकुलेटर](/hi/calculator/india/income-tax) दोनों व्यवस्थाओं को एक साथ चलाता है और बताता है कि कौन सी अधिक बचाती है।
+
+### आधिकारिक स्रोत
+
+- [आयकर विभाग स्लैब FY 2025-26](https://www.incometax.gov.in)
+- [वित्त अधिनियम 2025](https://financialservices.gov.in)
+`,
+      ko: `## 인도 소득세 FY 2025-26: 신·구 과세 체계 완벽 가이드
+
+2025년 인도 예산안은 납세자들에게 게임 체인저였습니다. 신 과세 체계는 이제 **₹12 lakh**까지 소득에 대해 실질 세금을 0으로 만듭니다. 하지만 구 체계가 완전히 사라졌을까요? 그렇지 않습니다.
+
+### 신 체계 구간 (FY 2025-26)
+
+- ₹4 lakh까지: 0%
+- ₹4L-8L: 5%
+- ₹8L-12L: 10%
+- ₹12L-16L: 15%
+- ₹16L-20L: 20%
+- ₹20L-24L: 25%
+- ₹24L 초과: 30%
+
+표준 공제는 ₹75,000로 증가. 87A 섹션 감면은 ₹12 lakh까지 소득에 대해 세금을 0으로 만듭니다.
+
+### 어느 쪽이 유리한가
+
+일반적 규칙: 공제 합계가 **₹3.5-4 lakh**를 넘으면 구 체계가 유리. 그 미만은 신 체계.
+
+**신 체계 유리한 경우:** HRA/주택대출 없음, 80C 투자 적음
+**구 체계 유리한 경우:** 월세 납부로 HRA 공제, 주택대출 이자 ₹1.5L+, 80C 최대화, NPS 추가 ₹50K
+
+구체적 비교는 [소득세 계산기](/ko/calculator/india/income-tax)에서 확인하세요.
+
+### 출처
+
+- [인도 소득세청](https://www.incometax.gov.in)
+`,
+      ja: `## インド所得税 FY 2025-26: 新旧税制完全ガイド
+
+2025年インド予算案は納税者にとってゲームチェンジャーでした。新税制は今や**₹12 lakh**までの所得に対して実質ゼロ税金になります。しかし旧税制は死んだのでしょうか?そうではありません。
+
+### 新税制スラブ (FY 2025-26)
+
+- ₹4 lakhまで: 0%
+- ₹4L-8L: 5%
+- ₹8L-12L: 10%
+- ₹12L-16L: 15%
+- ₹16L-20L: 20%
+- ₹20L-24L: 25%
+- ₹24L超: 30%
+
+基礎控除は₹75,000に増加。第87A条還付は₹12 lakhまでの所得に対して税金をゼロにします。
+
+### どちらが得か
+
+一般ルール: 控除合計が**₹3.5-4 lakh**を超えれば旧税制有利。それ未満なら新税制。
+
+**新税制有利:** HRA/住宅ローンなし、80C投資少ない
+**旧税制有利:** 家賃支払いでHRA控除、住宅ローン利息₹1.5L+、80C最大化、NPS追加₹50K
+
+詳しい比較は[所得税計算機](/ja/calculator/india/income-tax)で。
+
+### 出典
+
+- [インド所得税局](https://www.incometax.gov.in)
+`,
+      zh: `## 印度所得税 FY 2025-26: 新旧税制完整指南
+
+2025年印度预算对纳税人是一个游戏规则改变者。新税制现在对**₹12 lakh**以下收入实际税额为零。但旧税制已死吗?并非如此。
+
+### 新税制税阶 (FY 2025-26)
+
+- ₹4 lakh以下: 0%
+- ₹4L-8L: 5%
+- ₹8L-12L: 10%
+- ₹12L-16L: 15%
+- ₹16L-20L: 20%
+- ₹20L-24L: 25%
+- 超过₹24L: 30%
+
+标准扣除增至₹75,000。87A条款退税使₹12 lakh以下收入税额为零。
+
+### 哪个更好
+
+一般规则:若扣除总额超过**₹3.5-4 lakh**,旧税制更优。低于此,选新税制。
+
+**新税制优势:** 无HRA/房贷,80C投资少
+**旧税制优势:** 支付租金享HRA,房贷利息₹1.5L+,80C最大化,NPS额外₹50K
+
+详细对比请用[所得税计算器](/zh/calculator/india/income-tax)。
+
+### 来源
+
+- [印度所得税局](https://www.incometax.gov.in)
+`,
+      ar: `## ضريبة الدخل في الهند FY 2025-26: دليل شامل للنظام الجديد مقابل القديم
+
+غيّرت ميزانية الاتحاد 2025 قواعد اللعبة للمكلفين الهنود. يقدم النظام الضريبي الجديد الآن ضريبة صفرية فعلياً للدخل حتى **₹12 lakh** — راحة كبيرة للطبقة الوسطى. لكن هل مات النظام القديم؟ ليس تماماً.
+
+### شرائح النظام الجديد (FY 2025-26)
+
+- حتى ₹4 lakh: 0%
+- ₹4L-8L: 5%
+- ₹8L-12L: 10%
+- ₹12L-16L: 15%
+- ₹16L-20L: 20%
+- ₹20L-24L: 25%
+- فوق ₹24L: 30%
+
+الخصم القياسي ارتفع إلى ₹75,000. إعفاء المادة 87A يجعل الضريبة صفراً للدخل حتى ₹12 lakh.
+
+### أيهما أفضل
+
+القاعدة العامة: إذا تجاوزت إجمالي الخصومات **₹3.5-4 lakh**، فالنظام القديم يفوز. أقل من ذلك، اختر الجديد.
+
+**النظام الجديد أفضل:** بدون HRA/قرض منزل، استثمارات 80C قليلة
+**النظام القديم أفضل:** دفع إيجار مع HRA، فوائد قرض ₹1.5L+، تعظيم 80C، NPS إضافي ₹50K
+
+استخدم [حاسبة ضريبة الدخل](/ar/calculator/india/income-tax) للمقارنة التفصيلية.
+
+### المصادر
+
+- [دائرة ضريبة الدخل الهندية](https://www.incometax.gov.in)
+`,
+      es: `## Impuesto sobre la renta India FY 2025-26: Guía completa nuevo vs antiguo régimen
+
+El Presupuesto 2025 de India cambió las reglas para los contribuyentes. El Nuevo Régimen ahora ofrece impuesto efectivo cero para ingresos hasta **₹12 lakh** — un gran alivio para la clase media. Pero ¿el Antiguo Régimen está muerto? No del todo.
+
+### Tramos Nuevo Régimen (FY 2025-26)
+
+- Hasta ₹4 lakh: 0%
+- ₹4L-8L: 5%
+- ₹8L-12L: 10%
+- ₹12L-16L: 15%
+- ₹16L-20L: 20%
+- ₹20L-24L: 25%
+- Sobre ₹24L: 30%
+
+Deducción estándar aumentada a ₹75,000. Rebaja 87A hace el impuesto cero para ingresos hasta ₹12 lakh.
+
+### Cuál es mejor
+
+Regla general: Si tus deducciones totales superan **₹3.5-4 lakh**, el Antiguo gana. Por debajo, elige el Nuevo.
+
+**Nuevo Régimen mejor:** Sin HRA/hipoteca, pocas inversiones 80C
+**Antiguo Régimen mejor:** Alquiler con HRA, intereses hipoteca ₹1.5L+, maximizar 80C, NPS extra ₹50K
+
+Usa la [Calculadora de Impuesto sobre la Renta](/es/calculator/india/income-tax) para comparación detallada.
+
+### Fuentes
+
+- [Departamento de Impuestos de India](https://www.incometax.gov.in)
+`,
+      fr: `## Impôt sur le revenu Inde FY 2025-26 : guide complet nouveau vs ancien régime
+
+Le Budget 2025 de l'Inde a changé la donne pour les contribuables. Le Nouveau Régime offre désormais un impôt effectif nul pour les revenus jusqu'à **₹12 lakh** — un grand soulagement pour la classe moyenne. Mais l'Ancien Régime est-il mort ? Pas tout à fait.
+
+### Tranches Nouveau Régime (FY 2025-26)
+
+- Jusqu'à ₹4 lakh : 0%
+- ₹4L-8L : 5%
+- ₹8L-12L : 10%
+- ₹12L-16L : 15%
+- ₹16L-20L : 20%
+- ₹20L-24L : 25%
+- Au-dessus de ₹24L : 30%
+
+Déduction standard augmentée à ₹75,000. Remise 87A rend l'impôt nul pour revenus jusqu'à ₹12 lakh.
+
+### Lequel est meilleur
+
+Règle générale : Si vos déductions totales dépassent **₹3.5-4 lakh**, l'Ancien gagne. En dessous, choisissez le Nouveau.
+
+**Nouveau Régime meilleur :** Sans HRA/hypothèque, peu d'investissements 80C
+**Ancien Régime meilleur :** Loyer avec HRA, intérêts hypothèque ₹1.5L+, maximiser 80C, NPS supplémentaire ₹50K
+
+Utilisez le [Calculateur d'impôt sur le revenu](/fr/calculator/india/income-tax) pour comparaison détaillée.
+
+### Sources
+
+- [Département des impôts d'Inde](https://www.incometax.gov.in)
+`,
+      de: `## Einkommensteuer Indien FY 2025-26: Vollständiger Leitfaden neues vs altes System
+
+Das Unionsbudget 2025 änderte die Spielregeln für indische Steuerzahler. Das neue Steuersystem bietet jetzt effektiv null Steuern für Einkommen bis **₹12 lakh** — eine große Erleichterung für die Mittelschicht. Aber ist das alte System tot? Nicht ganz.
+
+### Neue System-Stufen (FY 2025-26)
+
+- Bis ₹4 lakh: 0%
+- ₹4L-8L: 5%
+- ₹8L-12L: 10%
+- ₹12L-16L: 15%
+- ₹16L-20L: 20%
+- ₹20L-24L: 25%
+- Über ₹24L: 30%
+
+Standardabzug auf ₹75,000 erhöht. 87A-Erstattung macht Steuer null für Einkommen bis ₹12 lakh.
+
+### Welches ist besser
+
+Faustregel: Wenn Ihre Gesamtabzüge **₹3.5-4 lakh** übersteigen, gewinnt das alte. Darunter wählen Sie das neue.
+
+**Neues System besser:** Ohne HRA/Hypothek, wenige 80C-Anlagen
+**Altes System besser:** Miete mit HRA, Hypothekenzinsen ₹1.5L+, 80C maximieren, NPS extra ₹50K
+
+Verwenden Sie den [Einkommensteuer-Rechner](/de/calculator/india/income-tax) für detaillierten Vergleich.
+
+### Quellen
+
+- [Indische Einkommensteuerbehörde](https://www.incometax.gov.in)
+`,
+      pt: `## Imposto de renda Índia FY 2025-26: Guia completo novo vs antigo regime
+
+O Orçamento da União 2025 mudou o jogo para os contribuintes indianos. O Novo Regime agora oferece imposto efetivo zero para rendas até **₹12 lakh** — um grande alívio para a classe média. Mas o Regime Antigo está morto? Não exatamente.
+
+### Faixas Novo Regime (FY 2025-26)
+
+- Até ₹4 lakh: 0%
+- ₹4L-8L: 5%
+- ₹8L-12L: 10%
+- ₹12L-16L: 15%
+- ₹16L-20L: 20%
+- ₹20L-24L: 25%
+- Acima de ₹24L: 30%
+
+Dedução padrão aumentada para ₹75,000. Reembolso 87A zera o imposto para rendas até ₹12 lakh.
+
+### Qual é melhor
+
+Regra geral: Se suas deduções totais excedem **₹3.5-4 lakh**, o Antigo vence. Abaixo disso, escolha o Novo.
+
+**Novo Regime melhor:** Sem HRA/hipoteca, poucos investimentos 80C
+**Antigo Regime melhor:** Aluguel com HRA, juros hipoteca ₹1.5L+, maximizar 80C, NPS extra ₹50K
+
+Use a [Calculadora de Imposto de Renda](/pt/calculator/india/income-tax) para comparação detalhada.
+
+### Fontes
+
+- [Departamento de Impostos da Índia](https://www.incometax.gov.in)
+`,
+    },
+  },
+  {
+    slug: "take-home-salary-india-ctc-to-inhand",
+    category: "india",
+    date: "2026-04-24",
+    readingTime: 7,
+    calculatorLink: "/calculator/india/take-home-salary",
+    title: {
+      en: "CTC vs In-hand Salary India 2025-26: Why You Take Home Less",
+      hi: "CTC बनाम इन-हैंड वेतन भारत 2025-26: आप कम क्यों ले जाते हैं",
+      ko: "인도 CTC 대 실수령액 2025-26: 왜 덜 받는가",
+      ja: "インドCTC対手取り給与 2025-26: なぜ少ないのか",
+      zh: "印度 CTC 对实际到手工资 2025-26: 为何少拿?",
+      ar: "CTC مقابل الراتب الصافي في الهند 2025-26: لماذا تأخذ أقل",
+      es: "CTC vs salario neto India 2025-26: Por qué recibes menos",
+      fr: "CTC vs salaire net Inde 2025-26 : pourquoi vous recevez moins",
+      de: "CTC vs Nettogehalt Indien 2025-26: Warum Sie weniger bekommen",
+      pt: "CTC vs salário líquido Índia 2025-26: Por que você recebe menos",
+    },
+    summary: {
+      en: "On a ₹15 lakh CTC, your monthly take-home is typically ₹95,000–₹1,05,000 — not ₹1.25L. Here's where the gap goes: Employer PF, Employee PF, tax, and professional tax.",
+      hi: "₹15 लाख CTC पर आपका मासिक इन-हैंड आमतौर पर ₹95,000–₹1,05,000 होता है — ₹1.25L नहीं। अंतर कहाँ जाता है: नियोक्ता PF, कर्मचारी PF, कर और प्रोफेशनल टैक्स।",
+      ko: "₹15 lakh CTC에서 월 실수령액은 보통 ₹95,000-₹1,05,000입니다 — ₹1.25L이 아님. 차액은 고용주 PF, 직원 PF, 세금, 직업세로 갑니다.",
+      ja: "₹15 lakh CTCでは月の手取りは通常₹95,000-₹1,05,000です — ₹1.25Lではない。差額は雇用主PF、従業員PF、税金、職業税へ。",
+      zh: "₹15 lakh CTC 下,月度到手工资通常为₹95,000-₹1,05,000 — 不是 ₹1.25L。差额去向:雇主 PF、员工 PF、税金和职业税。",
+      ar: "في CTC ₹15 lakh، راتبك الشهري الصافي عادة ₹95,000-₹1,05,000 — وليس ₹1.25L. الفارق يذهب لـ PF صاحب العمل، PF الموظف، الضرائب.",
+      es: "Con CTC de ₹15 lakh, tu salario mensual neto es típicamente ₹95,000-₹1,05,000 — no ₹1.25L. La diferencia va a PF empleador, PF empleado, impuesto y tasa profesional.",
+      fr: "Sur un CTC de ₹15 lakh, votre net mensuel est typiquement ₹95,000-₹1,05,000 — pas ₹1.25L. L'écart va au PF employeur, PF employé, impôt et taxe professionnelle.",
+      de: "Bei ₹15 lakh CTC beträgt Ihr monatliches Netto meist ₹95,000-₹1,05,000 — nicht ₹1.25L. Die Lücke geht an Arbeitgeber-PF, Arbeitnehmer-PF, Steuer und Berufssteuer.",
+      pt: "Em CTC de ₹15 lakh, seu salário mensal líquido é tipicamente ₹95,000-₹1,05,000 — não ₹1.25L. A diferença vai para PF empregador, PF empregado, imposto e taxa profissional.",
+    },
+    content: {
+      en: `## CTC vs In-hand: Why Your Paycheck is Smaller Than Expected
+
+Fresh graduate gets an offer letter: **"Annual CTC: ₹15,00,000"**. They calculate: ₹15L ÷ 12 = **₹1.25 lakh per month**. But the first paycheck hits the bank at **₹98,500**. Where did ₹26,500/month vanish?
+
+This post breaks down the full CTC → In-hand journey, with formulas, real numbers, and a [CTC to In-hand Calculator](/en/calculator/india/take-home-salary) that does it instantly.
+
+### Anatomy of CTC
+
+CTC (Cost to Company) = everything the company spends on you annually. It includes:
+
+| Component | Typical % of CTC |
+|---|---|
+| Basic Salary | 40–50% |
+| HRA (House Rent Allowance) | 20–25% |
+| Special Allowance | 10–20% |
+| Employer PF contribution | 5–6% |
+| Gratuity (accrual) | 2–5% |
+| Medical insurance premium | 1–2% |
+| Variable pay / bonus | 10–20% |
+
+Your **gross salary** = CTC minus employer contributions you don't receive directly (employer PF, gratuity accrual, insurance premium paid to insurer).
+
+### The Deduction Chain
+
+From Gross Salary, the following get deducted:
+
+1. **Employee PF (12% of Basic):** Mandatory retirement contribution. Part of your PF account.
+2. **Professional Tax:** State-level. ~₹2,500/year in Maharashtra, Karnataka, West Bengal. Nil in Delhi, Haryana, UP.
+3. **TDS (Tax Deducted at Source):** Your income tax liability, deducted monthly by employer.
+
+What's left = **In-hand / Take-home Salary**.
+
+### Worked Example: ₹15 lakh CTC in Mumbai
+
+Assumptions: Basic = 50% of CTC, HRA = 40% of Basic, New Tax Regime.
+
+| Item | Annual (₹) | Monthly (₹) |
+|---|---|---|
+| CTC | 15,00,000 | 1,25,000 |
+| − Employer PF (12% of basic, max ₹21,600) | 21,600 | 1,800 |
+| **Gross Salary** | **14,78,400** | **1,23,200** |
+| − Employee PF (12% of basic) | 21,600 | 1,800 |
+| − Professional Tax | 2,500 | 208 |
+| − Income Tax (New Regime, after ₹75K std ded) | 1,07,640 | 8,970 |
+| **In-hand** | **13,46,660** | **1,12,222** |
+
+So on ₹1.25L/month CTC, in-hand is ₹1.12L. That's much better than ₹98K because our example isn't junior-level — at CTC ₹6 lakh the tax bite is smaller but PF bite is similar.
+
+### What If It's Old Regime?
+
+Assume same ₹15L CTC with ₹1.5L 80C, ₹2L home loan interest, ₹2.4L HRA, ₹25K 80D:
+
+- Taxable income = ₹14.78L − ₹50K std ded − ₹1.5L − ₹2L − ₹2.4L − ₹25K = ₹8.13L
+- Old regime tax = ₹76,500 + 4% cess = ₹79,560
+- In-hand = ₹14.78L − ₹21,600 (EE PF) − ₹2,500 − ₹79,560 = **₹13,74,740** (**₹1,14,561/month**)
+
+Old Regime wins by ₹2,341/month here because you have HRA + home loan.
+
+### Why Employer PF "Disappears"
+
+Some companies structure offer letters to hide the gap. An offer saying "CTC ₹15L, Gross ₹14.78L" is fine. But offers saying "CTC ₹15L" without explaining employer PF make candidates overestimate monthly income.
+
+**When switching jobs**, always ask: "What's the Gross Salary, not CTC?"
+
+### How to Maximize In-hand
+
+1. **Negotiate higher Basic %:** More Basic → more PF forced savings but also higher HRA limit, gratuity accrual, and more deductions available.
+2. **Opt for maximum HRA city designation:** Metro cities (Mumbai, Delhi, Kolkata, Chennai) allow 50% HRA exemption vs 40% non-metro.
+3. **Use Section 80CCD(1B):** Extra ₹50K NPS deduction on top of 80C.
+4. **Meal vouchers, fuel reimbursement:** Non-taxable perks up to certain limits.
+5. **LTA (Leave Travel Allowance):** Tax-free if you actually travel within India with bills.
+
+### Common Mistakes
+
+- **Confusing Fixed CTC with Variable CTC:** Bonuses/variable pay are usually *included* in CTC but not guaranteed monthly.
+- **Ignoring professional tax when relocating:** Moving from Delhi to Mumbai costs you ₹2,500/year.
+- **Over-estimating tax savings in Old Regime:** Deductions cap at actual amounts paid/invested — you can't claim ₹1.5L 80C if you only invested ₹80K.
+
+### Calculator
+
+Use our [CTC to In-hand Calculator](/en/calculator/india/take-home-salary) — enter CTC, adjust sliders for Basic/HRA, pick regime, and see exact monthly take-home with a full breakdown.
+
+### Sources
+
+- [EPFO Contribution Rules](https://epfindia.gov.in)
+- [Income Tax India Portal](https://www.incometax.gov.in)
+- [Maharashtra Professional Tax](https://mahagst.gov.in)
+`,
+      hi: `## CTC बनाम इन-हैंड: आपका वेतन अपेक्षा से कम क्यों है
+
+फ्रेश ग्रेजुएट को ऑफर लेटर मिलता है: **"वार्षिक CTC: ₹15,00,000"**। वह गणना करते हैं: ₹15L ÷ 12 = **₹1.25 लाख प्रति माह**। लेकिन पहला वेतन बैंक में आता है **₹98,500**। ₹26,500/माह कहाँ गायब हो गए?
+
+यह पोस्ट CTC → इन-हैंड की पूरी यात्रा को फॉर्मूले, वास्तविक संख्याओं और एक [CTC to In-hand Calculator](/hi/calculator/india/take-home-salary) के साथ समझाती है।
+
+### CTC की संरचना
+
+CTC (कंपनी की कुल लागत) = कंपनी आप पर सालाना जो खर्च करती है। इसमें शामिल है:
+
+| घटक | CTC का % |
+|---|---|
+| बेसिक वेतन | 40–50% |
+| HRA (मकान किराया भत्ता) | 20–25% |
+| विशेष भत्ता | 10–20% |
+| नियोक्ता PF अंशदान | 5–6% |
+| ग्रेच्युटी (संचय) | 2–5% |
+| चिकित्सा बीमा | 1–2% |
+| परिवर्तनीय वेतन / बोनस | 10–20% |
+
+आपका **सकल वेतन** = CTC − नियोक्ता योगदान जो आप सीधे प्राप्त नहीं करते।
+
+### कटौतियाँ
+
+सकल वेतन से निम्न कटते हैं:
+
+1. **कर्मचारी PF (बेसिक का 12%):** अनिवार्य सेवानिवृत्ति अंशदान।
+2. **प्रोफेशनल टैक्स:** राज्य स्तरीय। महाराष्ट्र, कर्नाटक में ~₹2,500/वर्ष।
+3. **TDS (स्रोत पर कर कटौती):** आपकी आयकर देयता।
+
+जो बचता है = **इन-हैंड / टेक-होम वेतन**।
+
+### उदाहरण: मुंबई में ₹15 लाख CTC
+
+मान्यताएँ: बेसिक = CTC का 50%, HRA = बेसिक का 40%, नई कर व्यवस्था।
+
+| आइटम | वार्षिक (₹) | मासिक (₹) |
+|---|---|---|
+| CTC | 15,00,000 | 1,25,000 |
+| − नियोक्ता PF | 21,600 | 1,800 |
+| **सकल वेतन** | **14,78,400** | **1,23,200** |
+| − कर्मचारी PF | 21,600 | 1,800 |
+| − प्रोफेशनल टैक्स | 2,500 | 208 |
+| − आयकर (नई व्यवस्था) | 1,07,640 | 8,970 |
+| **इन-हैंड** | **13,46,660** | **1,12,222** |
+
+### इन-हैंड अधिकतम कैसे करें
+
+1. **बेसिक % बढ़ाएँ:** अधिक बेसिक → अधिक PF बचत और HRA/ग्रेच्युटी सीमा।
+2. **महानगर शहर:** 50% HRA छूट बनाम गैर-महानगर 40%।
+3. **80CCD(1B):** 80C के अलावा अतिरिक्त ₹50K NPS कटौती।
+4. **LTA:** भारत के भीतर यात्रा पर कर मुक्त।
+
+### कैलकुलेटर का उपयोग करें
+
+हमारा [CTC to In-hand Calculator](/hi/calculator/india/take-home-salary) CTC दर्ज करें, बेसिक/HRA स्लाइडर समायोजित करें, व्यवस्था चुनें — सटीक मासिक टेक-होम पूरे ब्रेकडाउन के साथ।
+
+### स्रोत
+
+- [EPFO अंशदान नियम](https://epfindia.gov.in)
+- [आयकर पोर्टल](https://www.incometax.gov.in)
+`,
+      ko: `## CTC 대 실수령액: 왜 급여가 예상보다 적은가
+
+신입사원이 연봉 ₹15L CTC 제안을 받고 ₹15L÷12 = **월 ₹1.25 lakh**로 계산. 하지만 통장에 들어온 금액은 **₹98,500**. 월 ₹26,500이 어디로 갔을까요?
+
+### CTC 구조
+
+- 기본급: 40-50%
+- HRA: 20-25%
+- 특별수당: 10-20%
+- 고용주 PF: 5-6%
+- 퇴직금/보험: 3-7%
+
+### 공제 체인
+
+1. 고용주 PF (CTC에 포함되나 수령 안 됨)
+2. 직원 PF (기본급의 12%)
+3. 직업세 (주별 ~₹2,500/년)
+4. 소득세 (TDS로 원천징수)
+
+뭄바이 ₹15L CTC 예: 월 실수령액 **₹1,12,222** (신 체계 기준).
+
+### 실수령 극대화 팁
+
+- 기본급 비율 높게 협상 (PF·HRA·퇴직금 기반)
+- 대도시 근무 시 HRA 50% 면세
+- NPS 80CCD(1B)로 추가 ₹50K 공제
+- LTA 활용
+
+[실수령액 계산기](/ko/calculator/india/take-home-salary)로 정확한 금액 확인.
+
+### 출처
+
+- [EPFO](https://epfindia.gov.in)
+- [인도 소득세청](https://www.incometax.gov.in)
+`,
+      ja: `## CTC対手取り給与:期待より少ない理由
+
+新卒が年CTC ₹15Lのオファーを受けて ₹15L÷12 = **月₹1.25 lakh**と計算。しかし初月の手取りは **₹98,500**。月₹26,500はどこへ?
+
+### CTC構造
+
+- 基本給: 40-50%
+- HRA: 20-25%
+- 特別手当: 10-20%
+- 雇用主PF: 5-6%
+- 退職金/保険: 3-7%
+
+### 控除の連鎖
+
+1. 雇用主PF (CTCに含まれるが受取不可)
+2. 従業員PF (基本給の12%)
+3. 職業税 (州別~₹2,500/年)
+4. 所得税 (TDS源泉徴収)
+
+ムンバイ ₹15L CTC例: 月手取り **₹1,12,222** (新税制)。
+
+### 手取り最大化のコツ
+
+- 基本給比率を高く交渉
+- 大都市勤務でHRA 50%免税
+- NPS 80CCD(1B)で追加₹50K控除
+- LTA活用
+
+[手取り給与計算機](/ja/calculator/india/take-home-salary)で正確な金額を。
+
+### 出典
+
+- [EPFO](https://epfindia.gov.in)
+- [インド所得税局](https://www.incometax.gov.in)
+`,
+      zh: `## CTC 对到手工资: 为何工资比预期少
+
+应届毕业生收到 ₹15L 年 CTC offer,计算 ₹15L÷12 = **月₹1.25 lakh**。但第一笔到账 **₹98,500**。每月₹26,500 去哪了?
+
+### CTC 结构
+
+- 基本工资: 40-50%
+- HRA: 20-25%
+- 特别津贴: 10-20%
+- 雇主 PF: 5-6%
+- 退休金/保险: 3-7%
+
+### 扣除链
+
+1. 雇主 PF (含于 CTC 但不可接收)
+2. 员工 PF (基本工资的 12%)
+3. 职业税 (按州 ~₹2,500/年)
+4. 所得税 (TDS 预扣)
+
+孟买 ₹15L CTC 例:月到手 **₹1,12,222** (新税制)。
+
+### 到手最大化技巧
+
+- 协商高基本工资比例
+- 大都市工作享 HRA 50% 免税
+- NPS 80CCD(1B) 额外 ₹50K 扣除
+- 善用 LTA
+
+使用[到手工资计算器](/zh/calculator/india/take-home-salary)精确计算。
+
+### 来源
+
+- [EPFO](https://epfindia.gov.in)
+- [印度所得税局](https://www.incometax.gov.in)
+`,
+      ar: `## CTC مقابل الراتب الصافي: لماذا راتبك أقل من المتوقع
+
+الخريج الجديد يتلقى عرض CTC سنوي ₹15L، يحسب: ₹15L÷12 = **₹1.25 lakh شهرياً**. لكن أول راتب في البنك **₹98,500**. أين اختفى ₹26,500/شهر؟
+
+### بنية CTC
+
+- الراتب الأساسي: 40-50%
+- HRA: 20-25%
+- بدل خاص: 10-20%
+- PF صاحب العمل: 5-6%
+- مكافأة/تأمين: 3-7%
+
+### سلسلة الخصومات
+
+1. PF صاحب العمل (في CTC لكن لا تستلمه)
+2. PF الموظف (12% من الأساسي)
+3. الضريبة المهنية (~₹2,500/سنة حسب الولاية)
+4. ضريبة الدخل (TDS خصم المصدر)
+
+مثال ₹15L CTC في مومباي: صافي شهري **₹1,12,222** (النظام الجديد).
+
+### تعظيم الراتب الصافي
+
+- تفاوض على نسبة أساسي أعلى
+- المدن الكبرى لإعفاء HRA 50%
+- NPS 80CCD(1B) خصم إضافي ₹50K
+- استخدم LTA
+
+استخدم [حاسبة الراتب الصافي](/ar/calculator/india/take-home-salary) للرقم الدقيق.
+
+### المصادر
+
+- [EPFO](https://epfindia.gov.in)
+- [إدارة ضريبة الدخل الهندية](https://www.incometax.gov.in)
+`,
+      es: `## CTC vs salario neto: Por qué tu paga es menor de lo esperado
+
+El graduado recibe oferta CTC ₹15L anual, calcula ₹15L÷12 = **₹1.25 lakh/mes**. Pero el primer pago al banco es **₹98,500**. ¿A dónde se fueron ₹26,500/mes?
+
+### Estructura CTC
+
+- Salario básico: 40-50%
+- HRA: 20-25%
+- Asignación especial: 10-20%
+- PF empleador: 5-6%
+- Gratuidad/seguro: 3-7%
+
+### Cadena de deducciones
+
+1. PF empleador (en CTC pero no lo recibes)
+2. PF empleado (12% del básico)
+3. Impuesto profesional (~₹2,500/año según estado)
+4. Impuesto sobre la renta (TDS)
+
+Ejemplo ₹15L CTC en Mumbai: neto mensual **₹1,12,222** (nuevo régimen).
+
+### Maximizar salario neto
+
+- Negociar mayor % básico
+- Ciudades metro para HRA 50% exento
+- NPS 80CCD(1B) deducción extra ₹50K
+- Usar LTA
+
+Usa la [Calculadora CTC a Neto](/es/calculator/india/take-home-salary) para cifra exacta.
+
+### Fuentes
+
+- [EPFO](https://epfindia.gov.in)
+- [Departamento Impuestos India](https://www.incometax.gov.in)
+`,
+      fr: `## CTC vs salaire net : pourquoi votre paie est inférieure aux attentes
+
+Le diplômé reçoit une offre CTC ₹15L annuel, calcule ₹15L÷12 = **₹1.25 lakh/mois**. Mais le premier versement est **₹98,500**. Où sont passés ₹26,500/mois ?
+
+### Structure CTC
+
+- Salaire de base : 40-50%
+- HRA : 20-25%
+- Allocation spéciale : 10-20%
+- PF employeur : 5-6%
+- Gratification/assurance : 3-7%
+
+### Chaîne de déductions
+
+1. PF employeur (dans CTC mais vous ne le recevez pas)
+2. PF employé (12% du de base)
+3. Taxe professionnelle (~₹2,500/an selon l'État)
+4. Impôt sur le revenu (TDS)
+
+Exemple ₹15L CTC à Mumbai : net mensuel **₹1,12,222** (nouveau régime).
+
+### Maximiser le salaire net
+
+- Négocier un % de base plus élevé
+- Villes métro pour HRA 50% exonéré
+- NPS 80CCD(1B) déduction supplémentaire ₹50K
+- Utiliser LTA
+
+Utilisez le [Calculateur CTC vers Net](/fr/calculator/india/take-home-salary) pour le chiffre exact.
+
+### Sources
+
+- [EPFO](https://epfindia.gov.in)
+- [Département Impôts Inde](https://www.incometax.gov.in)
+`,
+      de: `## CTC vs Nettogehalt: Warum Ihre Zahlung geringer ist als erwartet
+
+Absolvent erhält CTC-Angebot ₹15L jährlich, rechnet ₹15L÷12 = **₹1.25 lakh/Monat**. Aber die erste Zahlung auf der Bank ist **₹98,500**. Wohin sind ₹26,500/Monat verschwunden?
+
+### CTC-Struktur
+
+- Grundgehalt: 40-50%
+- HRA: 20-25%
+- Sonderzulage: 10-20%
+- Arbeitgeber-PF: 5-6%
+- Gratifikation/Versicherung: 3-7%
+
+### Abzugskette
+
+1. Arbeitgeber-PF (in CTC, aber Sie erhalten es nicht)
+2. Arbeitnehmer-PF (12% des Grund)
+3. Berufssteuer (~₹2,500/Jahr je nach Staat)
+4. Einkommensteuer (TDS)
+
+Beispiel ₹15L CTC in Mumbai: monatliches Netto **₹1,12,222** (neues System).
+
+### Nettogehalt maximieren
+
+- Höhere Grund-% verhandeln
+- Metro-Städte für HRA 50% steuerfrei
+- NPS 80CCD(1B) zusätzliche ₹50K Abzug
+- LTA nutzen
+
+Verwenden Sie den [CTC-zu-Netto-Rechner](/de/calculator/india/take-home-salary) für exakte Zahl.
+
+### Quellen
+
+- [EPFO](https://epfindia.gov.in)
+- [Einkommensteuer-Abteilung Indien](https://www.incometax.gov.in)
+`,
+      pt: `## CTC vs salário líquido: Por que seu pagamento é menor que o esperado
+
+Recém-formado recebe oferta CTC ₹15L anual, calcula ₹15L÷12 = **₹1.25 lakh/mês**. Mas o primeiro pagamento ao banco é **₹98,500**. Para onde foram ₹26,500/mês?
+
+### Estrutura CTC
+
+- Salário básico: 40-50%
+- HRA: 20-25%
+- Adicional especial: 10-20%
+- PF empregador: 5-6%
+- Gratificação/seguro: 3-7%
+
+### Cadeia de deduções
+
+1. PF empregador (no CTC mas você não recebe)
+2. PF empregado (12% do básico)
+3. Imposto profissional (~₹2,500/ano por estado)
+4. Imposto de renda (TDS)
+
+Exemplo ₹15L CTC em Mumbai: líquido mensal **₹1,12,222** (novo regime).
+
+### Maximizar salário líquido
+
+- Negociar maior % básico
+- Cidades metro para HRA 50% isento
+- NPS 80CCD(1B) dedução extra ₹50K
+- Usar LTA
+
+Use a [Calculadora CTC para Líquido](/pt/calculator/india/take-home-salary) para valor exato.
+
+### Fontes
+
+- [EPFO](https://epfindia.gov.in)
+- [Departamento de Impostos Índia](https://www.incometax.gov.in)
+`,
+    },
+  },
+  {
+    slug: "nps-vs-ppf-mutual-funds-retirement-india",
+    category: "india",
+    date: "2026-04-24",
+    readingTime: 8,
+    calculatorLink: "/calculator/india/nps",
+    title: {
+      en: "NPS vs PPF vs Mutual Funds: Best Retirement Plan in India 2025",
+      hi: "NPS बनाम PPF बनाम म्यूचुअल फंड: भारत में सर्वश्रेष्ठ सेवानिवृत्ति योजना 2025",
+      ko: "NPS vs PPF vs 뮤추얼펀드: 인도 최적 은퇴 플랜 2025",
+      ja: "NPS対PPF対投資信託: インド最適な退職プラン2025",
+      zh: "NPS、PPF 与共同基金: 2025年印度最佳退休计划",
+      ar: "NPS مقابل PPF مقابل الصناديق المشتركة: أفضل خطة تقاعد في الهند 2025",
+      es: "NPS vs PPF vs Fondos Mutuos: Mejor plan de jubilación en India 2025",
+      fr: "NPS vs PPF vs fonds communs : meilleur plan retraite Inde 2025",
+      de: "NPS vs PPF vs Investmentfonds: Beste Altersvorsorge Indien 2025",
+      pt: "NPS vs PPF vs fundos mútuos: melhor plano aposentadoria Índia 2025",
+    },
+    summary: {
+      en: "NPS returns 9-11% with ₹50K extra 80CCD(1B) deduction, but locks 40% in annuity. PPF gives 7.1% tax-free but capped at ₹1.5L/year. Mutual funds are fully flexible but less tax-efficient. Here's the math.",
+      hi: "NPS 9-11% रिटर्न देता है ₹50K अतिरिक्त 80CCD(1B) कटौती के साथ, पर 40% एन्युटी में लॉक। PPF 7.1% कर-मुक्त पर ₹1.5L/वर्ष सीमित। म्यूचुअल फंड पूरी तरह लचीले पर कम कर-कुशल।",
+      ko: "NPS는 9-11% 수익률과 ₹50K 추가 80CCD(1B) 공제를 제공하지만 40%가 연금에 잠김. PPF는 7.1% 면세이나 연 ₹1.5L 한도. 뮤추얼펀드는 완전 유연하나 세금 효율 낮음.",
+      ja: "NPSは9-11%リターンと₹50K追加80CCD(1B)控除を提供するが40%が年金にロック。PPFは7.1%免税だが年₹1.5L上限。投資信託は完全柔軟だが税効率低い。",
+      zh: "NPS 提供 9-11% 收益和额外 ₹50K 80CCD(1B) 扣除,但 40% 锁在年金。PPF 7.1% 免税但限额 ₹1.5L/年。共同基金完全灵活但税收效率较低。",
+      ar: "NPS يعطي 9-11% عائد مع خصم إضافي ₹50K 80CCD(1B)، لكن 40% مقفل في المعاش. PPF 7.1% معفى لكن محدود ₹1.5L/سنة. الصناديق المشتركة مرنة لكن أقل كفاءة ضريبياً.",
+      es: "NPS rinde 9-11% con deducción extra ₹50K 80CCD(1B), pero bloquea 40% en anualidad. PPF da 7.1% libre pero limitado ₹1.5L/año. Fondos mutuos flexibles pero menos eficientes fiscalmente.",
+      fr: "NPS rapporte 9-11% avec déduction supplémentaire ₹50K 80CCD(1B), mais bloque 40% en rente. PPF donne 7.1% net mais plafonné ₹1.5L/an. Fonds flexibles mais moins efficaces fiscalement.",
+      de: "NPS erbringt 9-11% mit zusätzlichem ₹50K 80CCD(1B) Abzug, sperrt aber 40% in Rente. PPF gibt 7.1% steuerfrei, aber begrenzt auf ₹1.5L/Jahr. Investmentfonds flexibel, aber weniger steuereffizient.",
+      pt: "NPS rende 9-11% com dedução extra ₹50K 80CCD(1B), mas trava 40% em anuidade. PPF dá 7.1% livre mas limitado ₹1.5L/ano. Fundos flexíveis mas menos eficientes fiscalmente.",
+    },
+    content: {
+      en: `## NPS vs PPF vs Mutual Funds: The Retirement Math for India 2025
+
+If you're 30 and want to retire at 60 with financial independence, you have three main vehicles in India:
+
+1. **NPS (National Pension System)** — government pension with market-linked returns
+2. **PPF (Public Provident Fund)** — fixed-rate government-backed savings
+3. **Equity Mutual Funds** — market investments, fully flexible
+
+Each has different lock-ins, tax treatments, and return profiles. Let's do the math with our [NPS Calculator](/en/calculator/india/nps) and compare.
+
+### The Three Vehicles at a Glance
+
+| Feature | NPS (Tier 1) | PPF | Equity Mutual Funds |
+|---|---|---|---|
+| Typical return (long-term) | 9-11% | 7.1% (fixed) | 11-13% |
+| Lock-in | Until 60 | 15 years | None (but ELSS 3 yrs) |
+| Annual contribution limit | No cap (tax cap ₹2L) | ₹1.5 lakh | No cap |
+| Tax benefit | 80C + 80CCD(1B) + 80CCD(2) | 80C | ELSS only: 80C |
+| Taxation at exit | 60% tax-free lump, 40% annuity (taxable) | Fully tax-free | LTCG 10% above ₹1L/year |
+| Flexibility | Low | Medium (partial withdrawal after year 7) | Very high |
+
+### Same ₹5,000/month for 30 Years — Who Wins?
+
+Let's assume a 30-year-old invests ₹5,000/month until age 60 (30 years).
+
+#### NPS (10% return, balanced equity-debt mix)
+- Total invested: ₹18,00,000
+- Corpus at 60 (FV of ₹5K/month at 10%): ~**₹1.13 crore**
+- Lump sum at 60: 60% = ₹67.8 lakh (tax-free)
+- Annuity 40% = ₹45.2 lakh. At 6% annuity rate: ~₹22,600/month pension (taxable)
+
+#### PPF (7.1% compounded, within ₹1.5L/year cap — ₹5K×12 = ₹60K/year fits)
+- Total invested: ₹18,00,000
+- Corpus at year 30 (FV of ₹60K/year at 7.1%): ~**₹62 lakh**
+- Fully tax-free. Can be withdrawn at maturity (15-year blocks) or extended.
+
+#### Equity Mutual Fund SIP (12% expected)
+- Total invested: ₹18,00,000
+- Corpus at year 30 (FV of ₹5K/month at 12%): ~**₹1.75 crore**
+- LTCG tax above ₹1L/year at 10%: ~₹15 lakh tax. Net: ~**₹1.60 crore**
+
+### The Verdict
+
+**Pure return winner:** Equity Mutual Funds (₹1.60 Cr net) > NPS (₹1.13 Cr but with mandatory annuity) > PPF (₹62 lakh).
+
+**But here's the nuance:**
+
+**NPS wins for forced discipline + extra tax break**
+- NPS gives you the **exclusive ₹50,000 extra deduction under 80CCD(1B)** — no other investment gives this.
+- For a ₹30L salary earner in 30% tax bracket, that's ₹15,600/year tax saved, which compounded over 30 years at 10% = ~₹28 lakh.
+- NPS also forces you to not touch the money. If you have a leaky spending habit, NPS is better than mutual funds.
+
+**PPF wins for safety + tax-free exit**
+- No market risk. Fully tax-free at withdrawal (EEE status — Exempt, Exempt, Exempt).
+- Best for the fixed-income allocation of your portfolio.
+
+**Mutual Funds win for maximum growth + liquidity**
+- Fully flexible — withdraw anytime.
+- Higher long-term returns if you stay invested through market volatility.
+- Choose ELSS (tax-saver funds) for Section 80C benefit if you haven't maxed it.
+
+### The Smart Combination Strategy
+
+**Portfolio rule of thumb for a salaried Indian (age 30):**
+
+| Vehicle | Monthly % |
+|---|---|
+| NPS Tier 1 (for ₹50K 80CCD(1B)) | 10% (~₹4,200/mo if you want ₹50K/year) |
+| PPF (for 80C, safety) | 20% (~₹12,500/mo to max ₹1.5L/year) |
+| Equity MF SIP (ELSS + growth funds) | 40-50% |
+| Emergency fund / debt funds | 20% |
+
+### When to Prefer Each
+
+**Pick NPS if you:**
+- Are in 20% or 30% tax bracket (full tax benefit)
+- Need forced savings discipline
+- Can commit to age 60 lock-in
+
+**Pick PPF if you:**
+- Have low risk tolerance
+- Haven't maxed out 80C elsewhere
+- Want certain tax-free corpus
+
+**Pick Mutual Funds if you:**
+- Have 15+ year horizon
+- Accept market volatility
+- Want liquidity and flexibility
+- Prefer higher expected returns
+
+### Real Example: ₹15 LPA Earner at 30
+
+**Tax-optimal monthly allocation:**
+- ₹12,500 PPF (₹1.5L/year to max 80C)
+- ₹4,200 NPS (~₹50K/year for 80CCD(1B) extra deduction)
+- ₹20,000 Equity MF SIP (₹2.4L/year)
+- ₹5,000 Liquid / Debt funds (emergency buffer)
+
+Total: ₹41,700/month. Corpus at 60 (30 years):
+- PPF: ₹1.5L/year × 30yrs at 7.1% = ~**₹1.58 Cr**
+- NPS: ₹50K/year × 30yrs at 10% = ~**₹83 lakh**
+- MF: ₹2.4L/year × 30yrs at 12% = ~**₹7 Cr**
+- **Total corpus: ~₹9.4 Cr**
+
+### Use the Calculator
+
+Our [NPS Calculator](/en/calculator/india/nps) models your exact retirement corpus, lump sum, and monthly pension based on your contribution and return assumptions. Change inputs to compare strategies instantly.
+
+### Sources
+
+- [NPS Official (NSDL)](https://www.npscra.nsdl.co.in)
+- [PPF Interest Rates Ministry of Finance](https://dea.gov.in)
+- [AMFI Mutual Fund Data](https://www.amfiindia.com)
+`,
+      hi: `## NPS बनाम PPF बनाम म्यूचुअल फंड: भारत 2025 में सेवानिवृत्ति का गणित
+
+यदि आप 30 साल के हैं और 60 पर आर्थिक स्वतंत्रता के साथ रिटायर होना चाहते हैं, तो भारत में तीन मुख्य वाहन हैं:
+
+1. **NPS (राष्ट्रीय पेंशन प्रणाली)** — बाजार-लिंक्ड रिटर्न वाली सरकारी पेंशन
+2. **PPF (सार्वजनिक भविष्य निधि)** — सरकार-समर्थित निश्चित-दर बचत
+3. **इक्विटी म्यूचुअल फंड** — बाजार निवेश, पूरी तरह लचीला
+
+हमारे [NPS कैलकुलेटर](/hi/calculator/india/nps) के साथ गणित करते हैं।
+
+### तीन वाहनों की तुलना
+
+| विशेषता | NPS Tier 1 | PPF | इक्विटी MF |
+|---|---|---|---|
+| रिटर्न | 9-11% | 7.1% (निश्चित) | 11-13% |
+| लॉक-इन | 60 तक | 15 साल | कोई नहीं |
+| वार्षिक सीमा | कोई नहीं | ₹1.5 लाख | कोई नहीं |
+| कर लाभ | 80C + 80CCD(1B) + 80CCD(2) | 80C | ELSS केवल |
+| निकासी पर कर | 60% कर-मुक्त, 40% एन्युटी | पूर्णतः कर-मुक्त | LTCG 10% ₹1L से ऊपर |
+
+### 30 साल तक ₹5,000/माह — कौन जीतता है?
+
+#### NPS (10% रिटर्न)
+- कुल निवेश: ₹18 लाख
+- कॉर्पस: ~**₹1.13 करोड़**
+- एकमुश्त: ₹67.8L | एन्युटी कॉर्पस: ₹45.2L | मासिक पेंशन: ₹22,600
+
+#### PPF (7.1%)
+- कॉर्पस: ~**₹62 लाख** (पूर्णतः कर-मुक्त)
+
+#### इक्विटी MF (12%)
+- कॉर्पस: ~**₹1.75 करोड़**
+- LTCG के बाद: ~**₹1.60 करोड़**
+
+### समझदार रणनीति
+
+**₹30 लाख वेतन, आयु 30 के लिए सुझाव:**
+
+- ₹12,500 PPF (80C अधिकतम)
+- ₹4,200 NPS (80CCD(1B) ₹50K कटौती)
+- ₹20,000 इक्विटी MF SIP
+- ₹5,000 आपातकालीन कोष
+
+60 पर कुल कॉर्पस: **~₹9.4 करोड़**
+
+### कब कौन चुनें
+
+**NPS:** उच्च कर ब्रैकेट, अनुशासन, 60 तक लॉक-इन स्वीकार्य
+**PPF:** कम जोखिम सहनशीलता, निश्चित कर-मुक्त कॉर्पस
+**MF:** 15+ साल की अवधि, बाजार अस्थिरता स्वीकार्य
+
+### कैलकुलेटर का उपयोग करें
+
+[NPS कैलकुलेटर](/hi/calculator/india/nps) आपके योगदान के आधार पर सटीक कॉर्पस और पेंशन मॉडल करता है।
+
+### स्रोत
+
+- [NPS आधिकारिक](https://www.npscra.nsdl.co.in)
+- [PPF ब्याज दरें](https://dea.gov.in)
+- [AMFI डेटा](https://www.amfiindia.com)
+`,
+      ko: `## NPS vs PPF vs 뮤추얼펀드: 인도 2025 은퇴 수학
+
+30세에 60세 은퇴로 재정적 자유를 원한다면 인도에서 3가지 주요 수단:
+
+1. **NPS** — 시장연동 정부 연금
+2. **PPF** — 고정금리 정부 보증 저축
+3. **주식 뮤추얼펀드** — 시장 투자, 완전 유연
+
+[NPS 계산기](/ko/calculator/india/nps)로 비교.
+
+### 30년간 월 ₹5,000 투자 시
+
+- **NPS (10%)**: 총액 ₹1.13 크로, 일시금 ₹67.8L + 월연금 ₹22,600
+- **PPF (7.1%)**: ₹62 lakh (전액 면세)
+- **MF (12%)**: ₹1.75 크로 → LTCG 후 ₹1.60 크로
+
+### 스마트 전략 (연봉 ₹30 lakh, 30세)
+
+- ₹12,500 PPF (80C 최대)
+- ₹4,200 NPS (80CCD(1B) 추가 공제)
+- ₹20,000 주식 MF SIP
+- ₹5,000 비상기금
+
+60세 총 자산: **~₹9.4 크로**
+
+### 선택 기준
+
+**NPS:** 고세율 구간, 강제 저축 필요, 60세 락인 수용
+**PPF:** 저위험, 확실한 면세 자산
+**MF:** 15년+ 투자기간, 시장 변동성 수용
+
+### 출처
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [PPF 이자율](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+      ja: `## NPS対PPF対投資信託: インド2025年退職計算
+
+30歳で60歳に経済的自由と共に引退したいなら、インドで3つの主要手段:
+
+1. **NPS** — 市場連動政府年金
+2. **PPF** — 固定金利政府保証貯蓄
+3. **株式投資信託** — 市場投資、完全柔軟
+
+[NPS計算機](/ja/calculator/india/nps)で比較。
+
+### 30年間月₹5,000投資
+
+- **NPS (10%)**: 合計₹1.13 crore、一時金₹67.8L + 月年金₹22,600
+- **PPF (7.1%)**: ₹62 lakh (全額免税)
+- **MF (12%)**: ₹1.75 crore → LTCG後₹1.60 crore
+
+### スマート戦略 (年収₹30 lakh、30歳)
+
+- ₹12,500 PPF (80C最大)
+- ₹4,200 NPS (80CCD(1B)追加控除)
+- ₹20,000 株式MF SIP
+- ₹5,000 緊急基金
+
+60歳の総資産: **~₹9.4 crore**
+
+### 選択基準
+
+**NPS:** 高税率層、強制貯蓄必要、60歳ロックイン受容
+**PPF:** 低リスク、確実な免税資産
+**MF:** 15年+投資期間、市場変動受容
+
+### 出典
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [PPF金利](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+      zh: `## NPS、PPF 与共同基金: 2025年印度退休计算
+
+若您30岁想在60岁实现经济独立退休,印度有3种主要工具:
+
+1. **NPS** — 市场关联的政府养老金
+2. **PPF** — 固定利率政府支持储蓄
+3. **股票共同基金** — 市场投资,完全灵活
+
+用[NPS 计算器](/zh/calculator/india/nps)比较。
+
+### 30年月投资₹5,000
+
+- **NPS (10%)**: 合计₹1.13 crore,一次性₹67.8L + 月养老金₹22,600
+- **PPF (7.1%)**: ₹62 lakh (全额免税)
+- **MF (12%)**: ₹1.75 crore → LTCG后 ₹1.60 crore
+
+### 智能策略 (年薪₹30 lakh,30岁)
+
+- ₹12,500 PPF (80C最大)
+- ₹4,200 NPS (80CCD(1B)额外扣除)
+- ₹20,000 股票MF SIP
+- ₹5,000 应急基金
+
+60岁总资产:**~₹9.4 crore**
+
+### 选择标准
+
+**NPS:** 高税率,需强制储蓄,接受60岁锁定
+**PPF:** 低风险,确定免税资产
+**MF:** 15年+期限,接受市场波动
+
+### 来源
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [PPF 利率](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+      ar: `## NPS مقابل PPF مقابل الصناديق المشتركة: حسابات التقاعد في الهند 2025
+
+إذا كنت في الثلاثين وتريد التقاعد في الستين بحرية مالية، لديك 3 أدوات رئيسية في الهند:
+
+1. **NPS** — معاش حكومي مرتبط بالسوق
+2. **PPF** — ادخار حكومي بمعدل ثابت
+3. **الصناديق المشتركة للأسهم** — استثمارات سوقية مرنة
+
+قارن باستخدام [حاسبة NPS](/ar/calculator/india/nps).
+
+### استثمار ₹5,000/شهر لمدة 30 سنة
+
+- **NPS (10%)**: إجمالي ₹1.13 crore، مقطوع ₹67.8L + معاش شهري ₹22,600
+- **PPF (7.1%)**: ₹62 lakh (معفى كلياً)
+- **MF (12%)**: ₹1.75 crore → بعد LTCG ₹1.60 crore
+
+### استراتيجية ذكية (راتب ₹30 lakh، عمر 30)
+
+- ₹12,500 PPF
+- ₹4,200 NPS
+- ₹20,000 MF SIP
+- ₹5,000 صندوق طوارئ
+
+إجمالي في 60: **~₹9.4 crore**
+
+### المصادر
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [معدلات PPF](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+      es: `## NPS vs PPF vs Fondos Mutuos: Matemáticas de jubilación India 2025
+
+Si tienes 30 y quieres jubilarte a los 60 con independencia financiera, India tiene 3 vehículos principales:
+
+1. **NPS** — pensión gubernamental vinculada al mercado
+2. **PPF** — ahorro respaldado por gobierno a tasa fija
+3. **Fondos mutuos de renta variable** — inversiones flexibles
+
+Compara con la [Calculadora NPS](/es/calculator/india/nps).
+
+### ₹5,000/mes durante 30 años
+
+- **NPS (10%)**: total ₹1.13 crore, suma ₹67.8L + pensión mensual ₹22,600
+- **PPF (7.1%)**: ₹62 lakh (totalmente exento)
+- **MF (12%)**: ₹1.75 crore → tras LTCG ₹1.60 crore
+
+### Estrategia inteligente (salario ₹30 lakh, 30 años)
+
+- ₹12,500 PPF
+- ₹4,200 NPS
+- ₹20,000 MF SIP
+- ₹5,000 fondo emergencia
+
+Total a los 60: **~₹9.4 crore**
+
+### Fuentes
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [Tasas PPF](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+      fr: `## NPS vs PPF vs fonds communs : mathématiques de retraite Inde 2025
+
+Si vous avez 30 ans et voulez prendre votre retraite à 60 ans avec indépendance financière, l'Inde a 3 véhicules principaux :
+
+1. **NPS** — pension gouvernementale liée au marché
+2. **PPF** — épargne garantie par l'État à taux fixe
+3. **Fonds communs actions** — investissements flexibles
+
+Comparez avec le [Calculateur NPS](/fr/calculator/india/nps).
+
+### ₹5,000/mois pendant 30 ans
+
+- **NPS (10%)** : total ₹1.13 crore, forfait ₹67.8L + pension mensuelle ₹22,600
+- **PPF (7.1%)** : ₹62 lakh (entièrement exonéré)
+- **MF (12%)** : ₹1.75 crore → après LTCG ₹1.60 crore
+
+### Stratégie intelligente (salaire ₹30 lakh, 30 ans)
+
+- ₹12,500 PPF
+- ₹4,200 NPS
+- ₹20,000 MF SIP
+- ₹5,000 fonds urgence
+
+Total à 60 ans : **~₹9.4 crore**
+
+### Sources
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [Taux PPF](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+      de: `## NPS vs PPF vs Investmentfonds: Altersvorsorge-Mathematik Indien 2025
+
+Wenn Sie 30 sind und mit 60 in finanzieller Unabhängigkeit in Rente gehen möchten, hat Indien 3 Hauptinstrumente:
+
+1. **NPS** — marktgebundene staatliche Rente
+2. **PPF** — staatlich abgesicherte Festzinsersparnisse
+3. **Aktien-Investmentfonds** — flexible Marktinvestitionen
+
+Vergleichen Sie mit dem [NPS-Rechner](/de/calculator/india/nps).
+
+### ₹5,000/Monat über 30 Jahre
+
+- **NPS (10%)**: gesamt ₹1.13 crore, Pauschale ₹67.8L + Monatsrente ₹22,600
+- **PPF (7.1%)**: ₹62 lakh (vollständig steuerfrei)
+- **MF (12%)**: ₹1.75 crore → nach LTCG ₹1.60 crore
+
+### Intelligente Strategie (Gehalt ₹30 lakh, 30)
+
+- ₹12,500 PPF
+- ₹4,200 NPS
+- ₹20,000 MF SIP
+- ₹5,000 Notfallfonds
+
+Gesamt mit 60: **~₹9.4 crore**
+
+### Quellen
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [PPF-Zinsen](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+      pt: `## NPS vs PPF vs fundos mútuos: Matemática de aposentadoria Índia 2025
+
+Se você tem 30 anos e quer se aposentar aos 60 com independência financeira, a Índia tem 3 veículos principais:
+
+1. **NPS** — pensão governamental vinculada ao mercado
+2. **PPF** — poupança garantida pelo governo a taxa fixa
+3. **Fundos mútuos de ações** — investimentos flexíveis
+
+Compare com a [Calculadora NPS](/pt/calculator/india/nps).
+
+### ₹5,000/mês por 30 anos
+
+- **NPS (10%)**: total ₹1.13 crore, único ₹67.8L + pensão mensal ₹22,600
+- **PPF (7.1%)**: ₹62 lakh (totalmente isento)
+- **MF (12%)**: ₹1.75 crore → após LTCG ₹1.60 crore
+
+### Estratégia inteligente (salário ₹30 lakh, 30 anos)
+
+- ₹12,500 PPF
+- ₹4,200 NPS
+- ₹20,000 MF SIP
+- ₹5,000 fundo emergência
+
+Total aos 60: **~₹9.4 crore**
+
+### Fontes
+
+- [NPS](https://www.npscra.nsdl.co.in)
+- [Taxas PPF](https://dea.gov.in)
+- [AMFI](https://www.amfiindia.com)
+`,
+    },
+  },
+  {
+    slug: "gratuity-india-calculation-eligibility-tax-2025",
+    category: "india",
+    date: "2026-04-24",
+    readingTime: 6,
+    calculatorLink: "/calculator/india/gratuity",
+    title: {
+      en: "Gratuity Calculation India 2025: Formula, Eligibility & Tax Rules",
+      hi: "भारत में ग्रेच्युटी गणना 2025: फॉर्मूला, पात्रता और कर नियम",
+      ko: "인도 Gratuity(퇴직금) 계산 2025: 공식·자격·세금",
+      ja: "インドのGratuity計算2025: 公式・資格・税規則",
+      zh: "印度 Gratuity 计算 2025: 公式、资格与税规",
+      ar: "حساب مكافأة نهاية الخدمة في الهند 2025: الصيغة والأهلية والضريبة",
+      es: "Cálculo de gratuidad India 2025: Fórmula, elegibilidad y reglas fiscales",
+      fr: "Calcul de gratification Inde 2025 : formule, éligibilité et règles fiscales",
+      de: "Gratifikationsberechnung Indien 2025: Formel, Anspruch und Steuerregeln",
+      pt: "Cálculo de gratuidade Índia 2025: fórmula, elegibilidade e regras fiscais",
+    },
+    summary: {
+      en: "After 5 years of service in India, you're eligible for gratuity. Formula: (15 × last salary × years) ÷ 26 for covered employers. Tax-free up to ₹20 lakh lifetime. Here's the complete guide.",
+      hi: "भारत में 5 साल की सेवा के बाद आप ग्रेच्युटी के हकदार हैं। फॉर्मूला: कवर नियोक्ताओं के लिए (15 × अंतिम वेतन × वर्ष) ÷ 26। आजीवन ₹20 लाख तक कर-मुक्त।",
+      ko: "인도에서 5년 근속 후 Gratuity 수급 자격. 공식: 적용 기업은 (15 × 최종급여 × 근속연수) ÷ 26. 평생 ₹20 lakh까지 면세.",
+      ja: "インドで5年勤続後Gratuity受給資格。公式: 適用企業は(15×最終給与×年数)÷26。生涯₹20 lakhまで免税。",
+      zh: "在印度服务 5 年后有资格获得 Gratuity。公式:覆盖雇主 (15 × 最后工资 × 年数) ÷ 26。终身 ₹20 lakh 以内免税。",
+      ar: "بعد 5 سنوات خدمة في الهند، مؤهل للمكافأة. الصيغة: لأصحاب العمل المشمولين (15 × آخر راتب × السنوات) ÷ 26. معفى حتى ₹20 lakh مدى الحياة.",
+      es: "Tras 5 años de servicio en India, eres elegible para gratuidad. Fórmula: para empleadores cubiertos (15 × último salario × años) ÷ 26. Exento hasta ₹20 lakh vitalicio.",
+      fr: "Après 5 ans de service en Inde, vous êtes éligible à la gratification. Formule : pour employeurs couverts (15 × dernier salaire × années) ÷ 26. Exonéré jusqu'à ₹20 lakh à vie.",
+      de: "Nach 5 Dienstjahren in Indien haben Sie Anspruch auf Gratifikation. Formel: Für abgedeckte Arbeitgeber (15 × letztes Gehalt × Jahre) ÷ 26. Steuerfrei bis ₹20 lakh lebenslang.",
+      pt: "Após 5 anos de serviço na Índia, você é elegível à gratuidade. Fórmula: para empregadores cobertos (15 × último salário × anos) ÷ 26. Isento até ₹20 lakh vitalício.",
+    },
+    content: {
+      en: `## Gratuity in India: Everything You Need to Know
+
+After spending 5+ years at a company, you're walking out with a final paycheck plus a lump sum called **gratuity** — a reward for long service, governed by the Payment of Gratuity Act, 1972. But how much exactly? And how much is tax-free?
+
+This is your complete guide, with the exact formulas and a [Gratuity Calculator](/en/calculator/india/gratuity) to compute yours instantly.
+
+### Who's Eligible?
+
+- Any employee who has completed **5 years of continuous service** with the same employer
+- Exception: The 5-year rule is waived in cases of death or permanent disability
+- Your employer must be "covered" — applies to establishments with 10+ employees (factories, mines, shops, plantations, companies, etc.)
+
+### The Two Formulas
+
+**1. If employer is covered under the Act:**
+
+`+"```"+`
+Gratuity = (15 × Last drawn salary × Years of service) ÷ 26
+`+"```"+`
+
+- "Salary" = Basic + DA (Dearness Allowance) only. No HRA, no variable pay.
+- "Years of service" rounds up to next full year if partial year ≥ 6 months.
+
+**2. If employer is NOT covered (voluntarily giving gratuity):**
+
+`+"```"+`
+Gratuity = (15 × Last drawn salary × Years of service) ÷ 30
+`+"```"+`
+
+- Only completed years count — no rounding up.
+
+### Why 15 and 26?
+
+The Act assumes you earn **15 days of wages for every year of service**, and uses 26 working days per month (Monday–Saturday, excluding Sundays). So the denominator 26 reflects "working days," making the formula effectively generous.
+
+Uncovered employers use 30 (calendar days), which gives a smaller gratuity.
+
+### Real Examples
+
+#### Example 1: ₹60,000/month (Basic+DA), 10 years, covered
+- Gratuity = (15 × 60,000 × 10) ÷ 26 = **₹3,46,154**
+- Tax-free (below ₹20L cap)
+
+#### Example 2: ₹1,50,000/month, 25 years, covered
+- Gratuity = (15 × 1,50,000 × 25) ÷ 26 = **₹21,63,461**
+- Tax-free up to ₹20L; remaining ₹1,63,461 taxed as salary
+
+#### Example 3: ₹80,000/month, 7 years 8 months, covered
+- Years counted: 8 (since 8 months ≥ 6)
+- Gratuity = (15 × 80,000 × 8) ÷ 26 = **₹3,69,231**
+
+#### Example 4: Same salary, NOT covered
+- Gratuity = (15 × 80,000 × 7) ÷ 30 = **₹2,80,000** (only 7 full years counted)
+
+### Tax Treatment
+
+| Employee Type | Tax-Free Limit |
+|---|---|
+| Government employees | Fully tax-free (no cap) |
+| Private sector employees covered under Act | ₹20 lakh lifetime |
+| Private sector NOT covered | Lower of: actual gratuity / 10× monthly salary × service years ÷ 2 / ₹20 lakh |
+
+The ₹20 lakh cap applies **across all jobs in your lifetime**. If you received ₹8L gratuity at Company A and then ₹18L at Company B, total is ₹26L — of which ₹20L is tax-free and ₹6L is taxable.
+
+### When Do You Get It?
+
+- **On retirement** (usually age 58 or 60)
+- **On resignation** after 5+ years
+- **On termination** (even if less than 5 years, in some cases)
+- **On death or disability** (immediately, regardless of service duration)
+
+Employer must pay within **30 days of your last working day**. Delay attracts interest.
+
+### Common Mistakes to Avoid
+
+1. **Not counting Dearness Allowance:** Many people use Basic only. The formula uses Basic + DA.
+2. **Using gross salary:** Variable pay, bonuses, HRA are NOT part of "salary" for gratuity calculation.
+3. **Assuming 4 years = eligible:** You need to complete 5 full years. 4 years 11 months ≠ eligible (unless employer rules differ).
+4. **Thinking it's taxed at income tax rate:** Only the portion above ₹20L exemption is taxed.
+5. **Not claiming unpaid gratuity:** Employers sometimes "forget" — you have up to 3 years to file a case under the Act.
+
+### What If the Employer Refuses?
+
+File a complaint with the **Controlling Authority** under the Payment of Gratuity Act (usually the Labour Commissioner of your state). You have 90 days to file for gratuity after your last day. Extensions are possible.
+
+### Gratuity vs Provident Fund vs Pension
+
+| Benefit | When received | Tax-free up to |
+|---|---|---|
+| Gratuity | On exit (after 5 yrs) | ₹20 lakh lifetime |
+| PF (EPF) | On retirement or 2+ months unemployed | Fully exempt if 5+ yrs service |
+| NPS | On retirement (60) | 60% of corpus tax-free |
+| Pension (old scheme) | Monthly, post-retirement | Taxable as salary |
+
+### Use the Calculator
+
+Our [Gratuity Calculator](/en/calculator/india/gratuity) computes your exact entitlement in seconds. Enter your last salary (Basic+DA), years of service, and coverage status — get your gratuity amount and tax-free breakdown.
+
+### Sources
+
+- [Payment of Gratuity Act, 1972](https://labour.gov.in)
+- [Income Tax Rules – Section 10(10)](https://www.incometax.gov.in)
+- [Ministry of Labour & Employment](https://labour.gov.in)
+`,
+      hi: `## भारत में ग्रेच्युटी: सब कुछ जो आपको जानना चाहिए
+
+5+ साल कंपनी में बिताने के बाद, आप अंतिम वेतन के साथ-साथ एक मुश्त राशि — **ग्रेच्युटी** — के साथ बाहर निकलते हैं, जो लंबी सेवा के लिए पुरस्कार है, ग्रेच्युटी भुगतान अधिनियम 1972 के तहत।
+
+हमारा [ग्रेच्युटी कैलकुलेटर](/hi/calculator/india/gratuity) तुरंत आपका गणना करता है।
+
+### कौन पात्र है?
+
+- कोई भी कर्मचारी जिसने **5 साल निरंतर सेवा** पूरी की है
+- अपवाद: मृत्यु या स्थायी विकलांगता में 5 साल का नियम छूट
+- नियोक्ता "कवर" होना चाहिए — 10+ कर्मचारी वाली कंपनियाँ
+
+### दो फॉर्मूले
+
+**1. अधिनियम के तहत कवर नियोक्ता:**
+`+"```"+`
+ग्रेच्युटी = (15 × अंतिम वेतन × सेवा वर्ष) ÷ 26
+`+"```"+`
+- "वेतन" = बेसिक + DA (HRA नहीं, परिवर्तनीय नहीं)
+- अगर आंशिक वर्ष ≥ 6 महीने, तो अगले पूर्ण वर्ष तक राउंड अप
+
+**2. कवर नहीं (स्वैच्छिक):**
+`+"```"+`
+ग्रेच्युटी = (15 × अंतिम वेतन × सेवा वर्ष) ÷ 30
+`+"```"+`
+- केवल पूर्ण वर्ष गिने जाते हैं
+
+### उदाहरण
+
+**₹60,000/माह, 10 साल, कवर:**
+= (15 × 60,000 × 10) ÷ 26 = **₹3,46,154** (कर-मुक्त)
+
+**₹1,50,000/माह, 25 साल, कवर:**
+= (15 × 1,50,000 × 25) ÷ 26 = **₹21,63,461**
+₹20L तक कर-मुक्त, शेष ₹1,63,461 वेतन के रूप में कर योग्य
+
+### कर व्यवहार
+
+| प्रकार | कर-मुक्त सीमा |
+|---|---|
+| सरकारी कर्मचारी | पूर्णतः कर-मुक्त |
+| कवर निजी | आजीवन ₹20 लाख |
+| कवर नहीं | न्यूनतम: वास्तविक / 10×मासिक×वर्ष÷2 / ₹20L |
+
+### कब मिलता है?
+
+- सेवानिवृत्ति पर (58/60 साल)
+- 5+ साल बाद इस्तीफा
+- समाप्ति
+- मृत्यु/विकलांगता (तुरंत, कम सेवा भी चलेगी)
+
+नियोक्ता को **अंतिम कार्य दिवस के 30 दिनों के भीतर** भुगतान करना होगा।
+
+### बचने के लिए सामान्य गलतियाँ
+
+1. DA न गिनना (बेसिक+DA का उपयोग करें)
+2. सकल वेतन का उपयोग (HRA, बोनस शामिल नहीं)
+3. 4 साल को पात्र मानना (पूरे 5 साल चाहिए)
+4. पूरी राशि पर कर (केवल ₹20L से अधिक पर)
+
+### यदि नियोक्ता मना करे?
+
+अधिनियम के तहत **नियंत्रण प्राधिकरण** (राज्य श्रम आयुक्त) को शिकायत करें। अंतिम दिन के बाद 90 दिन है।
+
+### कैलकुलेटर का उपयोग करें
+
+हमारा [ग्रेच्युटी कैलकुलेटर](/hi/calculator/india/gratuity) सेकंडों में आपके सटीक हकदारी की गणना करता है।
+
+### स्रोत
+
+- [ग्रेच्युटी भुगतान अधिनियम 1972](https://labour.gov.in)
+- [आयकर नियम - धारा 10(10)](https://www.incometax.gov.in)
+`,
+      ko: `## 인도 Gratuity(퇴직금): 알아야 할 모든 것
+
+5년 이상 근속 후 최종 급여와 함께 **Gratuity**라는 일시금을 받습니다 — 1972년 Gratuity 지급법에 따른 장기 근속 보상입니다.
+
+[Gratuity 계산기](/ko/calculator/india/gratuity)로 즉시 계산.
+
+### 수급 자격
+
+- **5년 연속 근속** 완료 직원
+- 사망·영구 장애 시 5년 요건 완화
+- 고용주가 "적용" 대상 (10인 이상 사업장)
+
+### 두 공식
+
+**적용 기업:** (15 × 최종급여 × 근속연수) ÷ 26
+- 급여 = 기본급 + DA (HRA·변동급 제외)
+- 6개월 이상 추가는 반올림
+
+**미적용 기업:** (15 × 최종급여 × 근속연수) ÷ 30
+- 완전한 연도만 계산
+
+### 예시
+
+**월 ₹60,000, 10년, 적용:** ₹3,46,154 (면세)
+**월 ₹1,50,000, 25년, 적용:** ₹21,63,461 → ₹20L 면세 + ₹1,63,461 과세
+
+### 과세
+
+- 공무원: 전액 면세
+- 적용 민간: 평생 ₹20 lakh 면세
+- 미적용 민간: 최소값 기준
+
+### 지급 시기
+
+- 은퇴 시
+- 5년+ 근속 후 사직
+- 해고, 사망/장애 시
+
+고용주는 **최종 근무일로부터 30일 이내** 지급 의무.
+
+### 계산기 사용
+
+[Gratuity 계산기](/ko/calculator/india/gratuity)로 정확한 수급액 확인.
+
+### 출처
+
+- [Gratuity 지급법 1972](https://labour.gov.in)
+- [인도 소득세청](https://www.incometax.gov.in)
+`,
+      ja: `## インドのGratuity(退職金): 知っておくべきすべて
+
+5年以上勤続後、最終給与と共に**Gratuity**という一時金を受け取ります — 1972年Gratuity支払法による長期勤続の報酬です。
+
+[Gratuity計算機](/ja/calculator/india/gratuity)で即座に計算。
+
+### 受給資格
+
+- **5年連続勤続**完了の従業員
+- 死亡・永久障害時は5年要件緩和
+- 雇用主が「適用」対象(10人以上の事業所)
+
+### 2つの公式
+
+**適用企業:** (15 × 最終給与 × 勤続年数) ÷ 26
+- 給与 = 基本給 + DA (HRA・変動給除く)
+- 6ヶ月以上は切り上げ
+
+**非適用企業:** (15 × 最終給与 × 勤続年数) ÷ 30
+- 完全な年数のみカウント
+
+### 例
+
+**月₹60,000、10年、適用:** ₹3,46,154 (免税)
+**月₹1,50,000、25年、適用:** ₹21,63,461 → ₹20L免税 + ₹1,63,461課税
+
+### 課税
+
+- 公務員: 全額免税
+- 適用民間: 生涯₹20 lakh免税
+- 非適用民間: 最小値基準
+
+### 支給時期
+
+- 退職時
+- 5年+勤続後の辞職
+- 解雇、死亡/障害時
+
+雇用主は**最終勤務日から30日以内**支給義務。
+
+### 計算機を使う
+
+[Gratuity計算機](/ja/calculator/india/gratuity)で正確な受給額を。
+
+### 出典
+
+- [Gratuity支払法1972](https://labour.gov.in)
+- [インド所得税局](https://www.incometax.gov.in)
+`,
+      zh: `## 印度 Gratuity (退职金): 您需要了解的一切
+
+在一家公司工作 5+ 年后,您离职时将获得最后工资加一笔叫做 **Gratuity** 的一次性款项 — 根据 1972 年 Gratuity 支付法授予长期服务的奖励。
+
+使用[Gratuity 计算器](/zh/calculator/india/gratuity)立即计算。
+
+### 谁有资格?
+
+- 完成**5 年连续服务**的任何员工
+- 死亡或永久残疾时放宽 5 年规则
+- 雇主必须是"覆盖"— 10 人以上的企业
+
+### 两个公式
+
+**覆盖雇主:** (15 × 最后工资 × 服务年数) ÷ 26
+- "工资" = 基本工资 + DA (不含 HRA、可变工资)
+- ≥6 个月向上取整
+
+**未覆盖雇主:** (15 × 最后工资 × 服务年数) ÷ 30
+- 只计完整年数
+
+### 示例
+
+**月₹60,000,10年,覆盖:** ₹3,46,154 (免税)
+**月₹1,50,000,25年,覆盖:** ₹21,63,461 → ₹20L 免税 + ₹1,63,461 应税
+
+### 税务
+
+- 政府员工: 全额免税
+- 覆盖私营: 终身 ₹20 lakh 免税
+- 未覆盖私营: 最小值基准
+
+### 何时获得?
+
+- 退休时
+- 5+ 年后辞职
+- 解雇、死亡/残疾
+
+雇主必须在**最后工作日后 30 天内**支付。
+
+### 使用计算器
+
+用[Gratuity 计算器](/zh/calculator/india/gratuity)确定准确应得金额。
+
+### 来源
+
+- [Gratuity 支付法 1972](https://labour.gov.in)
+- [印度所得税局](https://www.incometax.gov.in)
+`,
+      ar: `## مكافأة نهاية الخدمة في الهند: كل ما تحتاج معرفته
+
+بعد 5+ سنوات في شركة، ستغادر مع الراتب النهائي ومبلغ مقطوع يسمى **مكافأة نهاية الخدمة** — مكافأة للخدمة الطويلة بموجب قانون دفع المكافآت 1972.
+
+استخدم [حاسبة المكافأة](/ar/calculator/india/gratuity) للحساب الفوري.
+
+### من المؤهل؟
+
+- أي موظف أكمل **5 سنوات خدمة متواصلة**
+- استثناء: تخفيف قاعدة 5 سنوات في حالات الوفاة/الإعاقة
+- يجب أن يكون صاحب العمل "مغطى" — المنشآت بـ 10+ موظفين
+
+### الصيغتان
+
+**صاحب عمل مغطى:** (15 × آخر راتب × سنوات الخدمة) ÷ 26
+- "الراتب" = أساسي + DA (بدون HRA)
+- ≥6 أشهر تُقرب لأعلى
+
+**غير مغطى:** (15 × آخر راتب × سنوات الخدمة) ÷ 30
+- السنوات الكاملة فقط
+
+### أمثلة
+
+**₹60,000/شهر، 10 سنوات، مغطى:** ₹3,46,154 (معفى)
+**₹1,50,000/شهر، 25 سنة، مغطى:** ₹21,63,461 → ₹20L معفى + ₹1,63,461 خاضع
+
+### الضريبة
+
+- موظفو الحكومة: معفى كلياً
+- القطاع الخاص المغطى: ₹20 lakh مدى الحياة
+- غير المغطى: الحد الأدنى
+
+### متى تحصل عليها؟
+
+- عند التقاعد
+- الاستقالة بعد 5+ سنوات
+- الفصل، الوفاة/الإعاقة
+
+يجب على صاحب العمل الدفع **خلال 30 يوماً من آخر يوم عمل**.
+
+### استخدم الحاسبة
+
+[حاسبة المكافأة](/ar/calculator/india/gratuity) تحسب استحقاقك الدقيق.
+
+### المصادر
+
+- [قانون دفع المكافآت 1972](https://labour.gov.in)
+- [إدارة ضريبة الدخل](https://www.incometax.gov.in)
+`,
+      es: `## Gratuidad en India: Todo lo que necesitas saber
+
+Tras 5+ años en una empresa, sales con el último salario más una suma global llamada **gratuidad** — recompensa por servicio largo, regulada por la Ley de Pago de Gratuidad de 1972.
+
+Usa la [Calculadora de Gratuidad](/es/calculator/india/gratuity) para cálculo instantáneo.
+
+### ¿Quién es elegible?
+
+- Cualquier empleado con **5 años de servicio continuo**
+- Excepción: regla 5 años flexibilizada en muerte/discapacidad
+- Empleador debe estar "cubierto" — establecimientos con 10+ empleados
+
+### Las dos fórmulas
+
+**Empleador cubierto:** (15 × último salario × años servicio) ÷ 26
+- "Salario" = Básico + DA (sin HRA)
+- ≥6 meses redondea al alza
+
+**No cubierto:** (15 × último salario × años servicio) ÷ 30
+- Solo años completos
+
+### Ejemplos
+
+**₹60,000/mes, 10 años, cubierto:** ₹3,46,154 (exento)
+**₹1,50,000/mes, 25 años, cubierto:** ₹21,63,461 → ₹20L exento + ₹1,63,461 imponible
+
+### Tratamiento fiscal
+
+- Gobierno: Totalmente exento
+- Privado cubierto: ₹20 lakh vitalicio
+- Privado no cubierto: mínimo aplicable
+
+### ¿Cuándo la recibes?
+
+- En jubilación
+- Renuncia tras 5+ años
+- Despido, muerte/discapacidad
+
+Empleador debe pagar **dentro de 30 días desde último día laboral**.
+
+### Usa la Calculadora
+
+[Calculadora de Gratuidad](/es/calculator/india/gratuity) calcula tu derecho exacto.
+
+### Fuentes
+
+- [Ley de Pago de Gratuidad 1972](https://labour.gov.in)
+- [Departamento de Impuestos](https://www.incometax.gov.in)
+`,
+      fr: `## Gratification en Inde : tout ce que vous devez savoir
+
+Après 5+ ans dans une entreprise, vous partez avec le dernier salaire plus une somme forfaitaire appelée **gratification** — récompense pour service long, sous la Loi sur le paiement de gratification de 1972.
+
+Utilisez le [Calculateur de gratification](/fr/calculator/india/gratuity) pour calcul instantané.
+
+### Qui est éligible ?
+
+- Tout employé ayant complété **5 ans de service continu**
+- Exception : règle des 5 ans assouplie en cas de décès/invalidité
+- Employeur doit être "couvert" — établissements avec 10+ employés
+
+### Les deux formules
+
+**Employeur couvert :** (15 × dernier salaire × années service) ÷ 26
+- "Salaire" = De base + DA (sans HRA)
+- ≥6 mois arrondis
+
+**Non couvert :** (15 × dernier salaire × années service) ÷ 30
+- Années complètes uniquement
+
+### Exemples
+
+**₹60,000/mois, 10 ans, couvert :** ₹3,46,154 (exonéré)
+**₹1,50,000/mois, 25 ans, couvert :** ₹21,63,461 → ₹20L exonéré + ₹1,63,461 imposable
+
+### Traitement fiscal
+
+- Gouvernement : Entièrement exonéré
+- Privé couvert : ₹20 lakh à vie
+- Privé non couvert : minimum applicable
+
+### Quand la recevez-vous ?
+
+- À la retraite
+- Démission après 5+ ans
+- Licenciement, décès/invalidité
+
+L'employeur doit payer **dans les 30 jours du dernier jour travaillé**.
+
+### Utilisez le Calculateur
+
+[Calculateur de gratification](/fr/calculator/india/gratuity) calcule votre droit exact.
+
+### Sources
+
+- [Loi de paiement de gratification 1972](https://labour.gov.in)
+- [Département des impôts](https://www.incometax.gov.in)
+`,
+      de: `## Gratifikation in Indien: Alles was Sie wissen müssen
+
+Nach 5+ Jahren in einer Firma verlassen Sie diese mit dem letzten Gehalt plus einer Pauschale namens **Gratifikation** — Belohnung für langen Dienst nach dem Gratifikationszahlungsgesetz von 1972.
+
+Nutzen Sie den [Gratifikationsrechner](/de/calculator/india/gratuity) für sofortige Berechnung.
+
+### Wer ist anspruchsberechtigt?
+
+- Jeder Mitarbeiter mit **5 Jahren ununterbrochenem Dienst**
+- Ausnahme: 5-Jahres-Regel bei Tod/Invalidität gelockert
+- Arbeitgeber muss "abgedeckt" sein — Betriebe mit 10+ Mitarbeitern
+
+### Die zwei Formeln
+
+**Abgedeckter Arbeitgeber:** (15 × letztes Gehalt × Dienstjahre) ÷ 26
+- "Gehalt" = Grund + DA (ohne HRA)
+- ≥6 Monate aufgerundet
+
+**Nicht abgedeckt:** (15 × letztes Gehalt × Dienstjahre) ÷ 30
+- Nur volle Jahre
+
+### Beispiele
+
+**₹60,000/Monat, 10 Jahre, abgedeckt:** ₹3,46,154 (steuerfrei)
+**₹1,50,000/Monat, 25 Jahre, abgedeckt:** ₹21,63,461 → ₹20L steuerfrei + ₹1,63,461 steuerpflichtig
+
+### Steuerliche Behandlung
+
+- Regierung: Vollständig steuerfrei
+- Privat abgedeckt: ₹20 lakh lebenslang
+- Privat nicht abgedeckt: Mindestbetrag
+
+### Wann erhalten Sie sie?
+
+- Bei Renteneintritt
+- Kündigung nach 5+ Jahren
+- Entlassung, Tod/Invalidität
+
+Arbeitgeber muss **innerhalb von 30 Tagen nach letztem Arbeitstag** zahlen.
+
+### Verwenden Sie den Rechner
+
+[Gratifikationsrechner](/de/calculator/india/gratuity) berechnet Ihren genauen Anspruch.
+
+### Quellen
+
+- [Gratifikationszahlungsgesetz 1972](https://labour.gov.in)
+- [Einkommensteuerabteilung](https://www.incometax.gov.in)
+`,
+      pt: `## Gratuidade na Índia: tudo que você precisa saber
+
+Após 5+ anos em uma empresa, você sai com o último salário mais um valor único chamado **gratuidade** — recompensa por serviço longo, sob a Lei de Pagamento de Gratuidade de 1972.
+
+Use a [Calculadora de Gratuidade](/pt/calculator/india/gratuity) para cálculo instantâneo.
+
+### Quem é elegível?
+
+- Qualquer empregado com **5 anos de serviço contínuo**
+- Exceção: regra de 5 anos flexibilizada em morte/incapacidade
+- Empregador deve ser "coberto" — estabelecimentos com 10+ empregados
+
+### As duas fórmulas
+
+**Empregador coberto:** (15 × último salário × anos serviço) ÷ 26
+- "Salário" = Básico + DA (sem HRA)
+- ≥6 meses arredonda pra cima
+
+**Não coberto:** (15 × último salário × anos serviço) ÷ 30
+- Apenas anos completos
+
+### Exemplos
+
+**₹60,000/mês, 10 anos, coberto:** ₹3,46,154 (isento)
+**₹1,50,000/mês, 25 anos, coberto:** ₹21,63,461 → ₹20L isento + ₹1,63,461 tributável
+
+### Tratamento fiscal
+
+- Governo: Totalmente isento
+- Privado coberto: ₹20 lakh vitalício
+- Privado não coberto: mínimo aplicável
+
+### Quando você recebe?
+
+- Na aposentadoria
+- Demissão após 5+ anos
+- Demissão, morte/incapacidade
+
+Empregador deve pagar **dentro de 30 dias do último dia trabalhado**.
+
+### Use a Calculadora
+
+[Calculadora de Gratuidade](/pt/calculator/india/gratuity) calcula seu direito exato.
+
+### Fontes
+
+- [Lei de Pagamento de Gratuidade 1972](https://labour.gov.in)
+- [Departamento de Impostos](https://www.incometax.gov.in)
+`,
+    },
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
