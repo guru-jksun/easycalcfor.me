@@ -114,28 +114,28 @@ const STATIC_PAGES = [
   ...CALCULATORS,
 ];
 
+// routing has localePrefix: "always" — every URL must include the locale
+// prefix (including the default locale) so sitemap entries match the canonical
+// URL emitted by each page. Without this, Google sees the bare URL as an
+// "Alternate page with proper canonical tag" and won't index it as primary.
+function localizedPath(locale: string, page: string): string {
+  const path = page === "/" ? "" : page;
+  return `${BASE_URL}/${locale}${path}`;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
   for (const page of STATIC_PAGES) {
     for (const locale of routing.locales) {
-      const url = locale === routing.defaultLocale
-        ? `${BASE_URL}${page === "/" ? "" : page}`
-        : `${BASE_URL}/${locale}${page}`;
-
       entries.push({
-        url,
+        url: localizedPath(locale, page),
         lastModified: new Date(),
         changeFrequency: page === "/" ? "weekly" : "monthly",
         priority: page === "/" ? 1.0 : page.includes("/calculator/") ? 0.8 : 0.6,
         alternates: {
           languages: Object.fromEntries(
-            routing.locales.map((l) => [
-              l,
-              l === routing.defaultLocale
-                ? `${BASE_URL}${page === "/" ? "" : page}`
-                : `${BASE_URL}/${l}${page}`,
-            ])
+            routing.locales.map((l) => [l, localizedPath(l, page)])
           ),
         },
       });
@@ -144,24 +144,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Blog posts
   for (const post of blogPosts) {
+    const blogPath = `/blog/${post.slug}`;
     for (const locale of routing.locales) {
-      const url = locale === routing.defaultLocale
-        ? `${BASE_URL}/blog/${post.slug}`
-        : `${BASE_URL}/${locale}/blog/${post.slug}`;
-
       entries.push({
-        url,
+        url: localizedPath(locale, blogPath),
         lastModified: new Date(post.date),
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: {
           languages: Object.fromEntries(
-            routing.locales.map((l) => [
-              l,
-              l === routing.defaultLocale
-                ? `${BASE_URL}/blog/${post.slug}`
-                : `${BASE_URL}/${l}/blog/${post.slug}`,
-            ])
+            routing.locales.map((l) => [l, localizedPath(l, blogPath)])
           ),
         },
       });

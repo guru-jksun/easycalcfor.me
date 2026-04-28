@@ -12,7 +12,9 @@ export async function generateMetadata(props: LayoutProps<"/[locale]">): Promise
   const t = await getTranslations({ locale, namespace: "site" });
 
   const baseUrl = "https://easycalcfor.me";
-  const canonicalUrl = locale === "en" ? baseUrl : `${baseUrl}/${locale}`;
+  // routing.localePrefix is "always", so canonical homepage URLs include the
+  // locale prefix for every locale (including en).
+  const canonicalUrl = `${baseUrl}/${locale}`;
 
   return {
     title: {
@@ -25,7 +27,7 @@ export async function generateMetadata(props: LayoutProps<"/[locale]">): Promise
       canonical: canonicalUrl,
       languages: {
         ...Object.fromEntries(
-          routing.locales.map((l) => [l, l === "en" ? baseUrl : `${baseUrl}/${l}`])
+          routing.locales.map((l) => [l, `${baseUrl}/${l}`])
         ),
         "hi-IN": `${baseUrl}/hi`,
         "ko-KR": `${baseUrl}/ko`,
@@ -36,7 +38,7 @@ export async function generateMetadata(props: LayoutProps<"/[locale]">): Promise
         "fr-FR": `${baseUrl}/fr`,
         "es-ES": `${baseUrl}/es`,
         "ar-SA": `${baseUrl}/ar`,
-        "x-default": baseUrl,
+        "x-default": `${baseUrl}/en`,
       },
     },
     openGraph: {
