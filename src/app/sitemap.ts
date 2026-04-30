@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { blogPosts } from "@/data/blog-posts";
+import { isNoindexPath } from "@/lib/noindex-paths";
 
 const BASE_URL = "https://easycalcfor.me";
 
@@ -126,7 +127,9 @@ function localizedPath(locale: string, page: string): string {
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
-  for (const page of STATIC_PAGES) {
+  const indexablePages = STATIC_PAGES.filter((page) => !isNoindexPath(page));
+
+  for (const page of indexablePages) {
     for (const locale of routing.locales) {
       entries.push({
         url: localizedPath(locale, page),
