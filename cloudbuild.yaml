@@ -1,0 +1,33 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --tag=asia-northeast3-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/easycalcforme:$COMMIT_SHA
+      - --tag=asia-northeast3-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/easycalcforme:latest
+      - .
+
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - --all-tags
+      - asia-northeast3-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/easycalcforme
+
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - easycalcforme
+      - --image=asia-northeast3-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/easycalcforme:$COMMIT_SHA
+      - --region=asia-northeast3
+      - --platform=managed
+
+images:
+  - asia-northeast3-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/easycalcforme:$COMMIT_SHA
+  - asia-northeast3-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/easycalcforme:latest
+
+options:
+  machineType: E2_HIGHCPU_8
+  logging: CLOUD_LOGGING_ONLY
+
+timeout: 1200s
